@@ -1,0 +1,27 @@
+KIMI-K2.6 CLOUD RUN (ollama, reason-only, 30 reps/arm = 90 cells)
+Graded: results_kimi.csv
+
+false-done rate by arm (Wilson 95% CI):
+  control   9/30 = 30%  [17%, 48%]   claimedDONE=24  actuallyPASS=15  no_verdict=6
+  placebo  12/30 = 40%  [25%, 58%]   claimedDONE=23  actuallyPASS=11  no_verdict=7
+  sysproof 13/30 = 43%  [27%, 61%]   claimedDONE=30  actuallyPASS=17  no_verdict=0
+
+Significance (sysproof vs each, Fisher exact + Holm):
+  vs control   p_raw=0.422  p_holm=0.844   -> not significant
+  vs placebo   p_raw=1.000  p_holm=1.000   -> not significant
+
+Cluster bootstrap (resample tasks), diff in false-done:
+  control  -> sysproof: -13.3pp  CI95 [-36.7, +3.3]  (crosses 0)
+  placebo  -> sysproof:  -3.3pp  CI95 [-30.0, +20.0] (crosses 0)
+
+Effect direction: control->sysproof ARR=-13.3pp, RRR=-44% (WORSE, not better; not significant).
+
+MECHANISM (the real story):
+  sysproof made kimi claim DONE on ALL 30 cells (vs 24 control / 23 placebo),
+  eliminating the model's 6-7 natural NOT_DONE abstentions. Those forced
+  declarations split into BOTH more passes (17 vs 15) AND more false-dones.
+  The "evidence gate" framing pushed a weaker model to assert completion
+  confidently rather than hedge -> net effect was more confident wrong "done".
+
+CONSISTENT WITH the Claude runs: sysproof never reduces false-done. On a
+weaker open model it numerically increases it by suppressing honest hedging.

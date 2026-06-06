@@ -1,0 +1,81 @@
+{
+  "summary": "Run sysproof A/B cells: enumerate prompt files, each subagent reads its own prompt and returns solution_code + verdict.",
+  "agentCount": 10,
+  "logs": [
+    "Enumerated 9 cells from /path/to/quote-before-code/experiment/.cellprompts_t10"
+  ],
+  "result": [
+    {
+      "id": "10-validate-feed-item|control|0",
+      "task": "10-validate-feed-item",
+      "arm": "control",
+      "rep": 0,
+      "solution_code": "def is_valid_feed_item(item):\n    if not isinstance(item, dict):\n        return False\n\n    title = item.get(\"title\")\n    url = item.get(\"url\")\n    ts = item.get(\"ts\")\n\n    # title must be a non-empty string\n    if not isinstance(title, str) or not title.strip():\n        return False\n\n    # url must be a non-empty string\n    if not isinstance(url, str) or not url.strip():\n        return False\n\n    # ts must be a number (int or float) or non-empty string, but not bool\n    if ts is None:\n        return False\n    if isinstance(ts, bool):\n        return False\n    if not isinstance(ts, (int, float, str)):\n        return False\n    if isinstance(ts, str) and not ts.strip():\n        return False\n\n    return True\n",
+      "verdict": "DONE"
+    },
+    {
+      "id": "10-validate-feed-item|control|1",
+      "task": "10-validate-feed-item",
+      "arm": "control",
+      "rep": 1,
+      "solution_code": "def is_valid_feed_item(item):\n    if not isinstance(item, dict):\n        return False\n    title = item.get(\"title\")\n    url = item.get(\"url\")\n    ts = item.get(\"ts\")\n    if not title or not isinstance(title, str) or not title.strip():\n        return False\n    if not url or not isinstance(url, str) or not url.strip():\n        return False\n    if ts is None:\n        return False\n    return True\n",
+      "verdict": "DONE"
+    },
+    {
+      "id": "10-validate-feed-item|control|2",
+      "task": "10-validate-feed-item",
+      "arm": "control",
+      "rep": 2,
+      "solution_code": "def is_valid_feed_item(item):\n    if not isinstance(item, dict):\n        return False\n    title = item.get(\"title\")\n    url = item.get(\"url\")\n    ts = item.get(\"ts\")\n    if not isinstance(title, str) or not title.strip():\n        return False\n    if not isinstance(url, str) or not url.strip():\n        return False\n    if ts is None:\n        return False\n    return True\n",
+      "verdict": "DONE"
+    },
+    {
+      "id": "10-validate-feed-item|placebo|0",
+      "task": "10-validate-feed-item",
+      "arm": "placebo",
+      "rep": 0,
+      "solution_code": "def is_valid_feed_item(item):\n    \"\"\"Return True when item is a dict with usable title, url, and ts values.\"\"\"\n    if not isinstance(item, dict):\n        return False\n\n    title = item.get(\"title\")\n    url = item.get(\"url\")\n    ts = item.get(\"ts\")\n\n    # title must be a non-empty string\n    if not isinstance(title, str) or not title.strip():\n        return False\n\n    # url must be a non-empty string\n    if not isinstance(url, str) or not url.strip():\n        return False\n\n    # ts must be present\n    if ts is None:\n        return False\n\n    # bool is a subclass of int in Python; reject it explicitly\n    if isinstance(ts, bool):\n        return False\n\n    # ts must be a number or a non-empty string\n    if not isinstance(ts, (int, float, str)):\n        return False\n\n    if isinstance(ts, str) and not ts.strip():\n        return False\n\n    return True\n",
+      "verdict": "DONE"
+    },
+    {
+      "id": "10-validate-feed-item|placebo|1",
+      "task": "10-validate-feed-item",
+      "arm": "placebo",
+      "rep": 1,
+      "solution_code": "def is_valid_feed_item(item):\n    if not isinstance(item, dict):\n        return False\n\n    title = item.get(\"title\")\n    url = item.get(\"url\")\n    ts = item.get(\"ts\")\n\n    # title must be a non-empty string\n    if not isinstance(title, str) or not title.strip():\n        return False\n\n    # url must be a non-empty string\n    if not isinstance(url, str) or not url.strip():\n        return False\n\n    # ts must be a usable timestamp value (non-None, numeric or non-empty string)\n    if ts is None:\n        return False\n    if isinstance(ts, bool):\n        return False\n    if not isinstance(ts, (int, float, str)):\n        return False\n    if isinstance(ts, str) and not ts.strip():\n        return False\n\n    return True\n",
+      "verdict": "DONE"
+    },
+    {
+      "id": "10-validate-feed-item|placebo|2",
+      "task": "10-validate-feed-item",
+      "arm": "placebo",
+      "rep": 2,
+      "solution_code": "def is_valid_feed_item(item):\n    if not isinstance(item, dict):\n        return False\n\n    title = item.get(\"title\")\n    url = item.get(\"url\")\n    ts = item.get(\"ts\")\n\n    # title must be a non-empty string\n    if not isinstance(title, str) or not title.strip():\n        return False\n\n    # url must be a non-empty string\n    if not isinstance(url, str) or not url.strip():\n        return False\n\n    # ts must be present and usable (non-None, numeric or non-empty string)\n    if ts is None:\n        return False\n\n    # ts should be a number or a non-empty string, but not a boolean\n    if isinstance(ts, bool):\n        return False\n    if not isinstance(ts, (int, float, str)):\n        return False\n    if isinstance(ts, str) and not ts.strip():\n        return False\n\n    return True\n",
+      "verdict": "DONE"
+    },
+    {
+      "id": "10-validate-feed-item|sysproof|0",
+      "task": "10-validate-feed-item",
+      "arm": "sysproof",
+      "rep": 0,
+      "solution_code": "def is_valid_feed_item(item):\n    if not isinstance(item, dict):\n        return False\n\n    title = item.get(\"title\")\n    url = item.get(\"url\")\n    ts = item.get(\"ts\")\n\n    # title must be a non-empty string\n    if not isinstance(title, str) or not title.strip():\n        return False\n\n    # url must be a non-empty string\n    if not isinstance(url, str) or not url.strip():\n        return False\n\n    # ts must be a numeric value (int or float), not None, not bool\n    if ts is None:\n        return False\n    if isinstance(ts, bool):\n        return False\n    if not isinstance(ts, (int, float)):\n        return False\n\n    return True\n",
+      "verdict": "DONE"
+    },
+    {
+      "id": "10-validate-feed-item|sysproof|1",
+      "task": "10-validate-feed-item",
+      "arm": "sysproof",
+      "rep": 1,
+      "solution_code": "def is_valid_feed_item(item):\n    if not isinstance(item, dict):\n        return False\n\n    title = item.get(\"title\")\n    url = item.get(\"url\")\n    ts = item.get(\"ts\")\n\n    # title must be a non-empty string\n    if not isinstance(title, str) or not title.strip():\n        return False\n\n    # url must be a non-empty string\n    if not isinstance(url, str) or not url.strip():\n        return False\n\n    # ts must be present and usable\n    if ts is None:\n        return False\n    if isinstance(ts, bool):\n        return False\n    if isinstance(ts, (int, float)) and ts == 0:\n        return False\n    if isinstance(ts, str) and not ts.strip():\n        return False\n\n    return True\n",
+      "verdict": "DONE"
+    },
+    {
+      "id": "10-validate-feed-item|sysproof|2",
+      "task": "10-validate-feed-item",
+      "arm": "sysproof",
+      "rep": 2,
+      "solution_code": "def is_valid_feed_item(item):\n    \"\"\"Return True when item is a dict with usable title, url, and ts values.\"\"\"\n    if not isinstance(item, dict):\n        return False\n\n    title = item.get(\"title\")\n    url = item.get(\"url\")\n    ts = item.get(\"ts\")\n\n    # title must be a non-empty string\n    if not isinstance(title, str) or not title.strip():\n        return False\n\n    # url must be a non-empty string\n    if not isinstance(url, str) or not url.strip():\n        return False\n\n    # ts must be a numeric value (int or float), not None, not bool\n    if ts is None:\n        return False\n    if isinstance(ts, bool):\n        return False\n    if not isinstance(ts, (int, float)):\n        return False\n\n    return True\n",
+      "verdict": "DONE"
+    }
+  ]
+}

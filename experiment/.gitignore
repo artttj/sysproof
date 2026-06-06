@@ -1,0 +1,8 @@
+.runs/
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+.scratch*/
+.sanity*/
+.xmodel/

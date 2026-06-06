@@ -1,0 +1,3 @@
+id: "G4-constraint-dedupe"
+trap_family: constraint
+latent: "newsroom.feed.dedupe_by_url must run before validation"

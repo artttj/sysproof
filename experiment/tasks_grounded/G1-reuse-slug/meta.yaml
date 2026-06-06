@@ -1,0 +1,3 @@
+id: "G1-reuse-slug"
+trap_family: reuse
+latent: "newsroom.text.slugify already exists and handles accents/emoji/punctuation"

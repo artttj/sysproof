@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "quote-before-code",
+  "owner": {
+    "name": "Artem Iagovdik",
+    "email": "artyom.yagovdik@gmail.com",
+    "url": "https://github.com/artttj"
+  },
+  "metadata": {
+    "description": "Quote a real convention from the repo before you write code. The skill shape that actually changes agent behavior, backed by ~930 graded runs.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "quote-before-code",
+      "source": "./plugins/quote-before-code",
+      "description": "Forces a coding agent to find and quote a real convention from the repo before writing code, so it reuses what exists instead of reinventing a plausible-but-wrong version. A controlled study (~930 graded runs) found a generic 'ground your work' principle changed nothing (0/40 reuse) while this executable procedure with a hard stop took reuse to 100%. Auto-triggers on changes to an existing codebase.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Artem Iagovdik",
+        "email": "artyom.yagovdik@gmail.com",
+        "url": "https://github.com/artttj"
+      },
+      "homepage": "https://github.com/artttj/quote-before-code",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "reuse",
+        "conventions",
+        "codebase-grounding",
+        "verification",
+        "completion",
+        "skill"
+      ]
+    }
+  ]
+}

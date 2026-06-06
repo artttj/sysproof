@@ -1,0 +1,6722 @@
+[
+ {
+  "id": "G1-reuse-slug|control|0",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 0
+ },
+ {
+  "id": "G1-reuse-slug|control|1",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 1
+ },
+ {
+  "id": "G1-reuse-slug|control|2",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 2
+ },
+ {
+  "id": "G1-reuse-slug|control|3",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 3
+ },
+ {
+  "id": "G1-reuse-slug|control|4",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 4
+ },
+ {
+  "id": "G1-reuse-slug|control|5",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 5
+ },
+ {
+  "id": "G1-reuse-slug|control|6",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 6
+ },
+ {
+  "id": "G1-reuse-slug|control|7",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 7
+ },
+ {
+  "id": "G1-reuse-slug|control|8",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 8
+ },
+ {
+  "id": "G1-reuse-slug|control|9",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 9
+ },
+ {
+  "id": "G1-reuse-slug|control|10",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 10
+ },
+ {
+  "id": "G1-reuse-slug|control|11",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 11
+ },
+ {
+  "id": "G1-reuse-slug|control|12",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 12
+ },
+ {
+  "id": "G1-reuse-slug|control|13",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 13
+ },
+ {
+  "id": "G1-reuse-slug|control|14",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 14
+ },
+ {
+  "id": "G1-reuse-slug|control|15",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 15
+ },
+ {
+  "id": "G1-reuse-slug|control|16",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 16
+ },
+ {
+  "id": "G1-reuse-slug|control|17",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 17
+ },
+ {
+  "id": "G1-reuse-slug|control|18",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 18
+ },
+ {
+  "id": "G1-reuse-slug|control|19",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 19
+ },
+ {
+  "id": "G1-reuse-slug|control|20",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 20
+ },
+ {
+  "id": "G1-reuse-slug|control|21",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 21
+ },
+ {
+  "id": "G1-reuse-slug|control|22",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 22
+ },
+ {
+  "id": "G1-reuse-slug|control|23",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 23
+ },
+ {
+  "id": "G1-reuse-slug|control|24",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 24
+ },
+ {
+  "id": "G1-reuse-slug|control|25",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 25
+ },
+ {
+  "id": "G1-reuse-slug|control|26",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 26
+ },
+ {
+  "id": "G1-reuse-slug|control|27",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 27
+ },
+ {
+  "id": "G1-reuse-slug|control|28",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 28
+ },
+ {
+  "id": "G1-reuse-slug|control|29",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 29
+ },
+ {
+  "id": "G1-reuse-slug|control|30",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 30
+ },
+ {
+  "id": "G1-reuse-slug|control|31",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 31
+ },
+ {
+  "id": "G1-reuse-slug|control|32",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 32
+ },
+ {
+  "id": "G1-reuse-slug|control|33",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 33
+ },
+ {
+  "id": "G1-reuse-slug|control|34",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 34
+ },
+ {
+  "id": "G1-reuse-slug|control|35",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 35
+ },
+ {
+  "id": "G1-reuse-slug|control|36",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 36
+ },
+ {
+  "id": "G1-reuse-slug|control|37",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 37
+ },
+ {
+  "id": "G1-reuse-slug|control|38",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 38
+ },
+ {
+  "id": "G1-reuse-slug|control|39",
+  "task": "G1-reuse-slug",
+  "arm": "control",
+  "rep": 39
+ },
+ {
+  "id": "G1-reuse-slug|placebo|0",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 0
+ },
+ {
+  "id": "G1-reuse-slug|placebo|1",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 1
+ },
+ {
+  "id": "G1-reuse-slug|placebo|2",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 2
+ },
+ {
+  "id": "G1-reuse-slug|placebo|3",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 3
+ },
+ {
+  "id": "G1-reuse-slug|placebo|4",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 4
+ },
+ {
+  "id": "G1-reuse-slug|placebo|5",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 5
+ },
+ {
+  "id": "G1-reuse-slug|placebo|6",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 6
+ },
+ {
+  "id": "G1-reuse-slug|placebo|7",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 7
+ },
+ {
+  "id": "G1-reuse-slug|placebo|8",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 8
+ },
+ {
+  "id": "G1-reuse-slug|placebo|9",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 9
+ },
+ {
+  "id": "G1-reuse-slug|placebo|10",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 10
+ },
+ {
+  "id": "G1-reuse-slug|placebo|11",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 11
+ },
+ {
+  "id": "G1-reuse-slug|placebo|12",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 12
+ },
+ {
+  "id": "G1-reuse-slug|placebo|13",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 13
+ },
+ {
+  "id": "G1-reuse-slug|placebo|14",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 14
+ },
+ {
+  "id": "G1-reuse-slug|placebo|15",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 15
+ },
+ {
+  "id": "G1-reuse-slug|placebo|16",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 16
+ },
+ {
+  "id": "G1-reuse-slug|placebo|17",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 17
+ },
+ {
+  "id": "G1-reuse-slug|placebo|18",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 18
+ },
+ {
+  "id": "G1-reuse-slug|placebo|19",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 19
+ },
+ {
+  "id": "G1-reuse-slug|placebo|20",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 20
+ },
+ {
+  "id": "G1-reuse-slug|placebo|21",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 21
+ },
+ {
+  "id": "G1-reuse-slug|placebo|22",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 22
+ },
+ {
+  "id": "G1-reuse-slug|placebo|23",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 23
+ },
+ {
+  "id": "G1-reuse-slug|placebo|24",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 24
+ },
+ {
+  "id": "G1-reuse-slug|placebo|25",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 25
+ },
+ {
+  "id": "G1-reuse-slug|placebo|26",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 26
+ },
+ {
+  "id": "G1-reuse-slug|placebo|27",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 27
+ },
+ {
+  "id": "G1-reuse-slug|placebo|28",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 28
+ },
+ {
+  "id": "G1-reuse-slug|placebo|29",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 29
+ },
+ {
+  "id": "G1-reuse-slug|placebo|30",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 30
+ },
+ {
+  "id": "G1-reuse-slug|placebo|31",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 31
+ },
+ {
+  "id": "G1-reuse-slug|placebo|32",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 32
+ },
+ {
+  "id": "G1-reuse-slug|placebo|33",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 33
+ },
+ {
+  "id": "G1-reuse-slug|placebo|34",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 34
+ },
+ {
+  "id": "G1-reuse-slug|placebo|35",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 35
+ },
+ {
+  "id": "G1-reuse-slug|placebo|36",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 36
+ },
+ {
+  "id": "G1-reuse-slug|placebo|37",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 37
+ },
+ {
+  "id": "G1-reuse-slug|placebo|38",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 38
+ },
+ {
+  "id": "G1-reuse-slug|placebo|39",
+  "task": "G1-reuse-slug",
+  "arm": "placebo",
+  "rep": 39
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|0",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 0
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|1",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 1
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|2",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 2
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|3",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 3
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|4",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 4
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|5",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 5
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|6",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 6
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|7",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 7
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|8",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 8
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|9",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 9
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|10",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 10
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|11",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 11
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|12",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 12
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|13",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 13
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|14",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 14
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|15",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 15
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|16",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 16
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|17",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 17
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|18",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 18
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|19",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 19
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|20",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 20
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|21",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 21
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|22",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 22
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|23",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 23
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|24",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 24
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|25",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 25
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|26",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 26
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|27",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 27
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|28",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 28
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|29",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 29
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|30",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 30
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|31",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 31
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|32",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 32
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|33",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 33
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|34",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 34
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|35",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 35
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|36",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 36
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|37",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 37
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|38",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 38
+ },
+ {
+  "id": "G1-reuse-slug|sysproof|39",
+  "task": "G1-reuse-slug",
+  "arm": "sysproof",
+  "rep": 39
+ },
+ {
+  "id": "G1-reuse-slug|convention|0",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 0
+ },
+ {
+  "id": "G1-reuse-slug|convention|1",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 1
+ },
+ {
+  "id": "G1-reuse-slug|convention|2",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 2
+ },
+ {
+  "id": "G1-reuse-slug|convention|3",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 3
+ },
+ {
+  "id": "G1-reuse-slug|convention|4",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 4
+ },
+ {
+  "id": "G1-reuse-slug|convention|5",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 5
+ },
+ {
+  "id": "G1-reuse-slug|convention|6",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 6
+ },
+ {
+  "id": "G1-reuse-slug|convention|7",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 7
+ },
+ {
+  "id": "G1-reuse-slug|convention|8",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 8
+ },
+ {
+  "id": "G1-reuse-slug|convention|9",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 9
+ },
+ {
+  "id": "G1-reuse-slug|convention|10",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 10
+ },
+ {
+  "id": "G1-reuse-slug|convention|11",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 11
+ },
+ {
+  "id": "G1-reuse-slug|convention|12",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 12
+ },
+ {
+  "id": "G1-reuse-slug|convention|13",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 13
+ },
+ {
+  "id": "G1-reuse-slug|convention|14",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 14
+ },
+ {
+  "id": "G1-reuse-slug|convention|15",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 15
+ },
+ {
+  "id": "G1-reuse-slug|convention|16",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 16
+ },
+ {
+  "id": "G1-reuse-slug|convention|17",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 17
+ },
+ {
+  "id": "G1-reuse-slug|convention|18",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 18
+ },
+ {
+  "id": "G1-reuse-slug|convention|19",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 19
+ },
+ {
+  "id": "G1-reuse-slug|convention|20",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 20
+ },
+ {
+  "id": "G1-reuse-slug|convention|21",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 21
+ },
+ {
+  "id": "G1-reuse-slug|convention|22",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 22
+ },
+ {
+  "id": "G1-reuse-slug|convention|23",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 23
+ },
+ {
+  "id": "G1-reuse-slug|convention|24",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 24
+ },
+ {
+  "id": "G1-reuse-slug|convention|25",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 25
+ },
+ {
+  "id": "G1-reuse-slug|convention|26",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 26
+ },
+ {
+  "id": "G1-reuse-slug|convention|27",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 27
+ },
+ {
+  "id": "G1-reuse-slug|convention|28",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 28
+ },
+ {
+  "id": "G1-reuse-slug|convention|29",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 29
+ },
+ {
+  "id": "G1-reuse-slug|convention|30",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 30
+ },
+ {
+  "id": "G1-reuse-slug|convention|31",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 31
+ },
+ {
+  "id": "G1-reuse-slug|convention|32",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 32
+ },
+ {
+  "id": "G1-reuse-slug|convention|33",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 33
+ },
+ {
+  "id": "G1-reuse-slug|convention|34",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 34
+ },
+ {
+  "id": "G1-reuse-slug|convention|35",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 35
+ },
+ {
+  "id": "G1-reuse-slug|convention|36",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 36
+ },
+ {
+  "id": "G1-reuse-slug|convention|37",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 37
+ },
+ {
+  "id": "G1-reuse-slug|convention|38",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 38
+ },
+ {
+  "id": "G1-reuse-slug|convention|39",
+  "task": "G1-reuse-slug",
+  "arm": "convention",
+  "rep": 39
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|0",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 0
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|1",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 1
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|2",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 2
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|3",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 3
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|4",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 4
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|5",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 5
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|6",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 6
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|7",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 7
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|8",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 8
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|9",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 9
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|10",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 10
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|11",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 11
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|12",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 12
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|13",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 13
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|14",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 14
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|15",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 15
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|16",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 16
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|17",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 17
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|18",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 18
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|19",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 19
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|20",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 20
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|21",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 21
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|22",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 22
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|23",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 23
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|24",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 24
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|25",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 25
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|26",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 26
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|27",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 27
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|28",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 28
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|29",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 29
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|30",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 30
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|31",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 31
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|32",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 32
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|33",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 33
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|34",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 34
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|35",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 35
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|36",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 36
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|37",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 37
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|38",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 38
+ },
+ {
+  "id": "G1-reuse-slug|exec_only|39",
+  "task": "G1-reuse-slug",
+  "arm": "exec_only",
+  "rep": 39
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|0",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 0
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|1",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 1
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|2",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 2
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|3",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 3
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|4",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 4
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|5",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 5
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|6",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 6
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|7",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 7
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|8",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 8
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|9",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 9
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|10",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 10
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|11",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 11
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|12",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 12
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|13",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 13
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|14",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 14
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|15",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 15
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|16",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 16
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|17",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 17
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|18",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 18
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|19",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 19
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|20",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 20
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|21",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 21
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|22",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 22
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|23",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 23
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|24",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 24
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|25",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 25
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|26",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 26
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|27",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 27
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|28",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 28
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|29",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 29
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|30",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 30
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|31",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 31
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|32",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 32
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|33",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 33
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|34",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 34
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|35",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 35
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|36",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 36
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|37",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 37
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|38",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 38
+ },
+ {
+  "id": "G1-reuse-slug|stop_only|39",
+  "task": "G1-reuse-slug",
+  "arm": "stop_only",
+  "rep": 39
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|0",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 0
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|1",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 1
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|2",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 2
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|3",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 3
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|4",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 4
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|5",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 5
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|6",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 6
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|7",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 7
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|8",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 8
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|9",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 9
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|10",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 10
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|11",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 11
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|12",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 12
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|13",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 13
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|14",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 14
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|15",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 15
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|16",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 16
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|17",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 17
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|18",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 18
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|19",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 19
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|20",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 20
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|21",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 21
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|22",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 22
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|23",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 23
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|24",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 24
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|25",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 25
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|26",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 26
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|27",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 27
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|28",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 28
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|29",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 29
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|30",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 30
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|31",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 31
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|32",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 32
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|33",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 33
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|34",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 34
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|35",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 35
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|36",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 36
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|37",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 37
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|38",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 38
+ },
+ {
+  "id": "G1-reuse-slug|verbose_principle|39",
+  "task": "G1-reuse-slug",
+  "arm": "verbose_principle",
+  "rep": 39
+ },
+ {
+  "id": "G2-convention-date|control|0",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 0
+ },
+ {
+  "id": "G2-convention-date|control|1",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 1
+ },
+ {
+  "id": "G2-convention-date|control|2",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 2
+ },
+ {
+  "id": "G2-convention-date|control|3",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 3
+ },
+ {
+  "id": "G2-convention-date|control|4",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 4
+ },
+ {
+  "id": "G2-convention-date|control|5",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 5
+ },
+ {
+  "id": "G2-convention-date|control|6",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 6
+ },
+ {
+  "id": "G2-convention-date|control|7",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 7
+ },
+ {
+  "id": "G2-convention-date|control|8",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 8
+ },
+ {
+  "id": "G2-convention-date|control|9",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 9
+ },
+ {
+  "id": "G2-convention-date|control|10",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 10
+ },
+ {
+  "id": "G2-convention-date|control|11",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 11
+ },
+ {
+  "id": "G2-convention-date|control|12",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 12
+ },
+ {
+  "id": "G2-convention-date|control|13",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 13
+ },
+ {
+  "id": "G2-convention-date|control|14",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 14
+ },
+ {
+  "id": "G2-convention-date|control|15",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 15
+ },
+ {
+  "id": "G2-convention-date|control|16",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 16
+ },
+ {
+  "id": "G2-convention-date|control|17",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 17
+ },
+ {
+  "id": "G2-convention-date|control|18",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 18
+ },
+ {
+  "id": "G2-convention-date|control|19",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 19
+ },
+ {
+  "id": "G2-convention-date|control|20",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 20
+ },
+ {
+  "id": "G2-convention-date|control|21",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 21
+ },
+ {
+  "id": "G2-convention-date|control|22",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 22
+ },
+ {
+  "id": "G2-convention-date|control|23",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 23
+ },
+ {
+  "id": "G2-convention-date|control|24",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 24
+ },
+ {
+  "id": "G2-convention-date|control|25",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 25
+ },
+ {
+  "id": "G2-convention-date|control|26",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 26
+ },
+ {
+  "id": "G2-convention-date|control|27",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 27
+ },
+ {
+  "id": "G2-convention-date|control|28",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 28
+ },
+ {
+  "id": "G2-convention-date|control|29",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 29
+ },
+ {
+  "id": "G2-convention-date|control|30",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 30
+ },
+ {
+  "id": "G2-convention-date|control|31",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 31
+ },
+ {
+  "id": "G2-convention-date|control|32",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 32
+ },
+ {
+  "id": "G2-convention-date|control|33",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 33
+ },
+ {
+  "id": "G2-convention-date|control|34",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 34
+ },
+ {
+  "id": "G2-convention-date|control|35",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 35
+ },
+ {
+  "id": "G2-convention-date|control|36",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 36
+ },
+ {
+  "id": "G2-convention-date|control|37",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 37
+ },
+ {
+  "id": "G2-convention-date|control|38",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 38
+ },
+ {
+  "id": "G2-convention-date|control|39",
+  "task": "G2-convention-date",
+  "arm": "control",
+  "rep": 39
+ },
+ {
+  "id": "G2-convention-date|placebo|0",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 0
+ },
+ {
+  "id": "G2-convention-date|placebo|1",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 1
+ },
+ {
+  "id": "G2-convention-date|placebo|2",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 2
+ },
+ {
+  "id": "G2-convention-date|placebo|3",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 3
+ },
+ {
+  "id": "G2-convention-date|placebo|4",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 4
+ },
+ {
+  "id": "G2-convention-date|placebo|5",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 5
+ },
+ {
+  "id": "G2-convention-date|placebo|6",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 6
+ },
+ {
+  "id": "G2-convention-date|placebo|7",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 7
+ },
+ {
+  "id": "G2-convention-date|placebo|8",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 8
+ },
+ {
+  "id": "G2-convention-date|placebo|9",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 9
+ },
+ {
+  "id": "G2-convention-date|placebo|10",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 10
+ },
+ {
+  "id": "G2-convention-date|placebo|11",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 11
+ },
+ {
+  "id": "G2-convention-date|placebo|12",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 12
+ },
+ {
+  "id": "G2-convention-date|placebo|13",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 13
+ },
+ {
+  "id": "G2-convention-date|placebo|14",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 14
+ },
+ {
+  "id": "G2-convention-date|placebo|15",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 15
+ },
+ {
+  "id": "G2-convention-date|placebo|16",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 16
+ },
+ {
+  "id": "G2-convention-date|placebo|17",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 17
+ },
+ {
+  "id": "G2-convention-date|placebo|18",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 18
+ },
+ {
+  "id": "G2-convention-date|placebo|19",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 19
+ },
+ {
+  "id": "G2-convention-date|placebo|20",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 20
+ },
+ {
+  "id": "G2-convention-date|placebo|21",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 21
+ },
+ {
+  "id": "G2-convention-date|placebo|22",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 22
+ },
+ {
+  "id": "G2-convention-date|placebo|23",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 23
+ },
+ {
+  "id": "G2-convention-date|placebo|24",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 24
+ },
+ {
+  "id": "G2-convention-date|placebo|25",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 25
+ },
+ {
+  "id": "G2-convention-date|placebo|26",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 26
+ },
+ {
+  "id": "G2-convention-date|placebo|27",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 27
+ },
+ {
+  "id": "G2-convention-date|placebo|28",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 28
+ },
+ {
+  "id": "G2-convention-date|placebo|29",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 29
+ },
+ {
+  "id": "G2-convention-date|placebo|30",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 30
+ },
+ {
+  "id": "G2-convention-date|placebo|31",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 31
+ },
+ {
+  "id": "G2-convention-date|placebo|32",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 32
+ },
+ {
+  "id": "G2-convention-date|placebo|33",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 33
+ },
+ {
+  "id": "G2-convention-date|placebo|34",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 34
+ },
+ {
+  "id": "G2-convention-date|placebo|35",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 35
+ },
+ {
+  "id": "G2-convention-date|placebo|36",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 36
+ },
+ {
+  "id": "G2-convention-date|placebo|37",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 37
+ },
+ {
+  "id": "G2-convention-date|placebo|38",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 38
+ },
+ {
+  "id": "G2-convention-date|placebo|39",
+  "task": "G2-convention-date",
+  "arm": "placebo",
+  "rep": 39
+ },
+ {
+  "id": "G2-convention-date|sysproof|0",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 0
+ },
+ {
+  "id": "G2-convention-date|sysproof|1",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 1
+ },
+ {
+  "id": "G2-convention-date|sysproof|2",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 2
+ },
+ {
+  "id": "G2-convention-date|sysproof|3",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 3
+ },
+ {
+  "id": "G2-convention-date|sysproof|4",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 4
+ },
+ {
+  "id": "G2-convention-date|sysproof|5",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 5
+ },
+ {
+  "id": "G2-convention-date|sysproof|6",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 6
+ },
+ {
+  "id": "G2-convention-date|sysproof|7",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 7
+ },
+ {
+  "id": "G2-convention-date|sysproof|8",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 8
+ },
+ {
+  "id": "G2-convention-date|sysproof|9",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 9
+ },
+ {
+  "id": "G2-convention-date|sysproof|10",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 10
+ },
+ {
+  "id": "G2-convention-date|sysproof|11",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 11
+ },
+ {
+  "id": "G2-convention-date|sysproof|12",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 12
+ },
+ {
+  "id": "G2-convention-date|sysproof|13",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 13
+ },
+ {
+  "id": "G2-convention-date|sysproof|14",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 14
+ },
+ {
+  "id": "G2-convention-date|sysproof|15",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 15
+ },
+ {
+  "id": "G2-convention-date|sysproof|16",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 16
+ },
+ {
+  "id": "G2-convention-date|sysproof|17",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 17
+ },
+ {
+  "id": "G2-convention-date|sysproof|18",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 18
+ },
+ {
+  "id": "G2-convention-date|sysproof|19",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 19
+ },
+ {
+  "id": "G2-convention-date|sysproof|20",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 20
+ },
+ {
+  "id": "G2-convention-date|sysproof|21",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 21
+ },
+ {
+  "id": "G2-convention-date|sysproof|22",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 22
+ },
+ {
+  "id": "G2-convention-date|sysproof|23",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 23
+ },
+ {
+  "id": "G2-convention-date|sysproof|24",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 24
+ },
+ {
+  "id": "G2-convention-date|sysproof|25",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 25
+ },
+ {
+  "id": "G2-convention-date|sysproof|26",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 26
+ },
+ {
+  "id": "G2-convention-date|sysproof|27",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 27
+ },
+ {
+  "id": "G2-convention-date|sysproof|28",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 28
+ },
+ {
+  "id": "G2-convention-date|sysproof|29",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 29
+ },
+ {
+  "id": "G2-convention-date|sysproof|30",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 30
+ },
+ {
+  "id": "G2-convention-date|sysproof|31",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 31
+ },
+ {
+  "id": "G2-convention-date|sysproof|32",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 32
+ },
+ {
+  "id": "G2-convention-date|sysproof|33",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 33
+ },
+ {
+  "id": "G2-convention-date|sysproof|34",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 34
+ },
+ {
+  "id": "G2-convention-date|sysproof|35",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 35
+ },
+ {
+  "id": "G2-convention-date|sysproof|36",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 36
+ },
+ {
+  "id": "G2-convention-date|sysproof|37",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 37
+ },
+ {
+  "id": "G2-convention-date|sysproof|38",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 38
+ },
+ {
+  "id": "G2-convention-date|sysproof|39",
+  "task": "G2-convention-date",
+  "arm": "sysproof",
+  "rep": 39
+ },
+ {
+  "id": "G2-convention-date|convention|0",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 0
+ },
+ {
+  "id": "G2-convention-date|convention|1",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 1
+ },
+ {
+  "id": "G2-convention-date|convention|2",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 2
+ },
+ {
+  "id": "G2-convention-date|convention|3",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 3
+ },
+ {
+  "id": "G2-convention-date|convention|4",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 4
+ },
+ {
+  "id": "G2-convention-date|convention|5",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 5
+ },
+ {
+  "id": "G2-convention-date|convention|6",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 6
+ },
+ {
+  "id": "G2-convention-date|convention|7",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 7
+ },
+ {
+  "id": "G2-convention-date|convention|8",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 8
+ },
+ {
+  "id": "G2-convention-date|convention|9",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 9
+ },
+ {
+  "id": "G2-convention-date|convention|10",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 10
+ },
+ {
+  "id": "G2-convention-date|convention|11",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 11
+ },
+ {
+  "id": "G2-convention-date|convention|12",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 12
+ },
+ {
+  "id": "G2-convention-date|convention|13",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 13
+ },
+ {
+  "id": "G2-convention-date|convention|14",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 14
+ },
+ {
+  "id": "G2-convention-date|convention|15",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 15
+ },
+ {
+  "id": "G2-convention-date|convention|16",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 16
+ },
+ {
+  "id": "G2-convention-date|convention|17",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 17
+ },
+ {
+  "id": "G2-convention-date|convention|18",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 18
+ },
+ {
+  "id": "G2-convention-date|convention|19",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 19
+ },
+ {
+  "id": "G2-convention-date|convention|20",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 20
+ },
+ {
+  "id": "G2-convention-date|convention|21",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 21
+ },
+ {
+  "id": "G2-convention-date|convention|22",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 22
+ },
+ {
+  "id": "G2-convention-date|convention|23",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 23
+ },
+ {
+  "id": "G2-convention-date|convention|24",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 24
+ },
+ {
+  "id": "G2-convention-date|convention|25",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 25
+ },
+ {
+  "id": "G2-convention-date|convention|26",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 26
+ },
+ {
+  "id": "G2-convention-date|convention|27",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 27
+ },
+ {
+  "id": "G2-convention-date|convention|28",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 28
+ },
+ {
+  "id": "G2-convention-date|convention|29",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 29
+ },
+ {
+  "id": "G2-convention-date|convention|30",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 30
+ },
+ {
+  "id": "G2-convention-date|convention|31",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 31
+ },
+ {
+  "id": "G2-convention-date|convention|32",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 32
+ },
+ {
+  "id": "G2-convention-date|convention|33",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 33
+ },
+ {
+  "id": "G2-convention-date|convention|34",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 34
+ },
+ {
+  "id": "G2-convention-date|convention|35",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 35
+ },
+ {
+  "id": "G2-convention-date|convention|36",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 36
+ },
+ {
+  "id": "G2-convention-date|convention|37",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 37
+ },
+ {
+  "id": "G2-convention-date|convention|38",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 38
+ },
+ {
+  "id": "G2-convention-date|convention|39",
+  "task": "G2-convention-date",
+  "arm": "convention",
+  "rep": 39
+ },
+ {
+  "id": "G2-convention-date|exec_only|0",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 0
+ },
+ {
+  "id": "G2-convention-date|exec_only|1",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 1
+ },
+ {
+  "id": "G2-convention-date|exec_only|2",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 2
+ },
+ {
+  "id": "G2-convention-date|exec_only|3",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 3
+ },
+ {
+  "id": "G2-convention-date|exec_only|4",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 4
+ },
+ {
+  "id": "G2-convention-date|exec_only|5",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 5
+ },
+ {
+  "id": "G2-convention-date|exec_only|6",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 6
+ },
+ {
+  "id": "G2-convention-date|exec_only|7",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 7
+ },
+ {
+  "id": "G2-convention-date|exec_only|8",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 8
+ },
+ {
+  "id": "G2-convention-date|exec_only|9",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 9
+ },
+ {
+  "id": "G2-convention-date|exec_only|10",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 10
+ },
+ {
+  "id": "G2-convention-date|exec_only|11",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 11
+ },
+ {
+  "id": "G2-convention-date|exec_only|12",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 12
+ },
+ {
+  "id": "G2-convention-date|exec_only|13",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 13
+ },
+ {
+  "id": "G2-convention-date|exec_only|14",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 14
+ },
+ {
+  "id": "G2-convention-date|exec_only|15",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 15
+ },
+ {
+  "id": "G2-convention-date|exec_only|16",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 16
+ },
+ {
+  "id": "G2-convention-date|exec_only|17",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 17
+ },
+ {
+  "id": "G2-convention-date|exec_only|18",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 18
+ },
+ {
+  "id": "G2-convention-date|exec_only|19",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 19
+ },
+ {
+  "id": "G2-convention-date|exec_only|20",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 20
+ },
+ {
+  "id": "G2-convention-date|exec_only|21",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 21
+ },
+ {
+  "id": "G2-convention-date|exec_only|22",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 22
+ },
+ {
+  "id": "G2-convention-date|exec_only|23",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 23
+ },
+ {
+  "id": "G2-convention-date|exec_only|24",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 24
+ },
+ {
+  "id": "G2-convention-date|exec_only|25",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 25
+ },
+ {
+  "id": "G2-convention-date|exec_only|26",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 26
+ },
+ {
+  "id": "G2-convention-date|exec_only|27",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 27
+ },
+ {
+  "id": "G2-convention-date|exec_only|28",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 28
+ },
+ {
+  "id": "G2-convention-date|exec_only|29",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 29
+ },
+ {
+  "id": "G2-convention-date|exec_only|30",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 30
+ },
+ {
+  "id": "G2-convention-date|exec_only|31",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 31
+ },
+ {
+  "id": "G2-convention-date|exec_only|32",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 32
+ },
+ {
+  "id": "G2-convention-date|exec_only|33",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 33
+ },
+ {
+  "id": "G2-convention-date|exec_only|34",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 34
+ },
+ {
+  "id": "G2-convention-date|exec_only|35",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 35
+ },
+ {
+  "id": "G2-convention-date|exec_only|36",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 36
+ },
+ {
+  "id": "G2-convention-date|exec_only|37",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 37
+ },
+ {
+  "id": "G2-convention-date|exec_only|38",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 38
+ },
+ {
+  "id": "G2-convention-date|exec_only|39",
+  "task": "G2-convention-date",
+  "arm": "exec_only",
+  "rep": 39
+ },
+ {
+  "id": "G2-convention-date|stop_only|0",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 0
+ },
+ {
+  "id": "G2-convention-date|stop_only|1",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 1
+ },
+ {
+  "id": "G2-convention-date|stop_only|2",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 2
+ },
+ {
+  "id": "G2-convention-date|stop_only|3",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 3
+ },
+ {
+  "id": "G2-convention-date|stop_only|4",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 4
+ },
+ {
+  "id": "G2-convention-date|stop_only|5",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 5
+ },
+ {
+  "id": "G2-convention-date|stop_only|6",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 6
+ },
+ {
+  "id": "G2-convention-date|stop_only|7",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 7
+ },
+ {
+  "id": "G2-convention-date|stop_only|8",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 8
+ },
+ {
+  "id": "G2-convention-date|stop_only|9",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 9
+ },
+ {
+  "id": "G2-convention-date|stop_only|10",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 10
+ },
+ {
+  "id": "G2-convention-date|stop_only|11",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 11
+ },
+ {
+  "id": "G2-convention-date|stop_only|12",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 12
+ },
+ {
+  "id": "G2-convention-date|stop_only|13",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 13
+ },
+ {
+  "id": "G2-convention-date|stop_only|14",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 14
+ },
+ {
+  "id": "G2-convention-date|stop_only|15",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 15
+ },
+ {
+  "id": "G2-convention-date|stop_only|16",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 16
+ },
+ {
+  "id": "G2-convention-date|stop_only|17",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 17
+ },
+ {
+  "id": "G2-convention-date|stop_only|18",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 18
+ },
+ {
+  "id": "G2-convention-date|stop_only|19",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 19
+ },
+ {
+  "id": "G2-convention-date|stop_only|20",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 20
+ },
+ {
+  "id": "G2-convention-date|stop_only|21",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 21
+ },
+ {
+  "id": "G2-convention-date|stop_only|22",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 22
+ },
+ {
+  "id": "G2-convention-date|stop_only|23",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 23
+ },
+ {
+  "id": "G2-convention-date|stop_only|24",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 24
+ },
+ {
+  "id": "G2-convention-date|stop_only|25",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 25
+ },
+ {
+  "id": "G2-convention-date|stop_only|26",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 26
+ },
+ {
+  "id": "G2-convention-date|stop_only|27",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 27
+ },
+ {
+  "id": "G2-convention-date|stop_only|28",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 28
+ },
+ {
+  "id": "G2-convention-date|stop_only|29",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 29
+ },
+ {
+  "id": "G2-convention-date|stop_only|30",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 30
+ },
+ {
+  "id": "G2-convention-date|stop_only|31",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 31
+ },
+ {
+  "id": "G2-convention-date|stop_only|32",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 32
+ },
+ {
+  "id": "G2-convention-date|stop_only|33",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 33
+ },
+ {
+  "id": "G2-convention-date|stop_only|34",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 34
+ },
+ {
+  "id": "G2-convention-date|stop_only|35",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 35
+ },
+ {
+  "id": "G2-convention-date|stop_only|36",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 36
+ },
+ {
+  "id": "G2-convention-date|stop_only|37",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 37
+ },
+ {
+  "id": "G2-convention-date|stop_only|38",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 38
+ },
+ {
+  "id": "G2-convention-date|stop_only|39",
+  "task": "G2-convention-date",
+  "arm": "stop_only",
+  "rep": 39
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|0",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 0
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|1",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 1
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|2",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 2
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|3",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 3
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|4",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 4
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|5",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 5
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|6",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 6
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|7",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 7
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|8",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 8
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|9",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 9
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|10",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 10
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|11",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 11
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|12",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 12
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|13",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 13
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|14",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 14
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|15",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 15
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|16",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 16
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|17",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 17
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|18",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 18
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|19",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 19
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|20",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 20
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|21",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 21
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|22",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 22
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|23",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 23
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|24",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 24
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|25",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 25
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|26",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 26
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|27",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 27
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|28",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 28
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|29",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 29
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|30",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 30
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|31",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 31
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|32",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 32
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|33",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 33
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|34",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 34
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|35",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 35
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|36",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 36
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|37",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 37
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|38",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 38
+ },
+ {
+  "id": "G2-convention-date|verbose_principle|39",
+  "task": "G2-convention-date",
+  "arm": "verbose_principle",
+  "rep": 39
+ },
+ {
+  "id": "G3-contract-error|control|0",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 0
+ },
+ {
+  "id": "G3-contract-error|control|1",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 1
+ },
+ {
+  "id": "G3-contract-error|control|2",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 2
+ },
+ {
+  "id": "G3-contract-error|control|3",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 3
+ },
+ {
+  "id": "G3-contract-error|control|4",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 4
+ },
+ {
+  "id": "G3-contract-error|control|5",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 5
+ },
+ {
+  "id": "G3-contract-error|control|6",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 6
+ },
+ {
+  "id": "G3-contract-error|control|7",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 7
+ },
+ {
+  "id": "G3-contract-error|control|8",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 8
+ },
+ {
+  "id": "G3-contract-error|control|9",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 9
+ },
+ {
+  "id": "G3-contract-error|control|10",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 10
+ },
+ {
+  "id": "G3-contract-error|control|11",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 11
+ },
+ {
+  "id": "G3-contract-error|control|12",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 12
+ },
+ {
+  "id": "G3-contract-error|control|13",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 13
+ },
+ {
+  "id": "G3-contract-error|control|14",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 14
+ },
+ {
+  "id": "G3-contract-error|control|15",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 15
+ },
+ {
+  "id": "G3-contract-error|control|16",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 16
+ },
+ {
+  "id": "G3-contract-error|control|17",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 17
+ },
+ {
+  "id": "G3-contract-error|control|18",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 18
+ },
+ {
+  "id": "G3-contract-error|control|19",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 19
+ },
+ {
+  "id": "G3-contract-error|control|20",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 20
+ },
+ {
+  "id": "G3-contract-error|control|21",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 21
+ },
+ {
+  "id": "G3-contract-error|control|22",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 22
+ },
+ {
+  "id": "G3-contract-error|control|23",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 23
+ },
+ {
+  "id": "G3-contract-error|control|24",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 24
+ },
+ {
+  "id": "G3-contract-error|control|25",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 25
+ },
+ {
+  "id": "G3-contract-error|control|26",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 26
+ },
+ {
+  "id": "G3-contract-error|control|27",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 27
+ },
+ {
+  "id": "G3-contract-error|control|28",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 28
+ },
+ {
+  "id": "G3-contract-error|control|29",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 29
+ },
+ {
+  "id": "G3-contract-error|control|30",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 30
+ },
+ {
+  "id": "G3-contract-error|control|31",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 31
+ },
+ {
+  "id": "G3-contract-error|control|32",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 32
+ },
+ {
+  "id": "G3-contract-error|control|33",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 33
+ },
+ {
+  "id": "G3-contract-error|control|34",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 34
+ },
+ {
+  "id": "G3-contract-error|control|35",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 35
+ },
+ {
+  "id": "G3-contract-error|control|36",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 36
+ },
+ {
+  "id": "G3-contract-error|control|37",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 37
+ },
+ {
+  "id": "G3-contract-error|control|38",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 38
+ },
+ {
+  "id": "G3-contract-error|control|39",
+  "task": "G3-contract-error",
+  "arm": "control",
+  "rep": 39
+ },
+ {
+  "id": "G3-contract-error|placebo|0",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 0
+ },
+ {
+  "id": "G3-contract-error|placebo|1",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 1
+ },
+ {
+  "id": "G3-contract-error|placebo|2",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 2
+ },
+ {
+  "id": "G3-contract-error|placebo|3",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 3
+ },
+ {
+  "id": "G3-contract-error|placebo|4",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 4
+ },
+ {
+  "id": "G3-contract-error|placebo|5",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 5
+ },
+ {
+  "id": "G3-contract-error|placebo|6",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 6
+ },
+ {
+  "id": "G3-contract-error|placebo|7",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 7
+ },
+ {
+  "id": "G3-contract-error|placebo|8",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 8
+ },
+ {
+  "id": "G3-contract-error|placebo|9",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 9
+ },
+ {
+  "id": "G3-contract-error|placebo|10",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 10
+ },
+ {
+  "id": "G3-contract-error|placebo|11",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 11
+ },
+ {
+  "id": "G3-contract-error|placebo|12",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 12
+ },
+ {
+  "id": "G3-contract-error|placebo|13",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 13
+ },
+ {
+  "id": "G3-contract-error|placebo|14",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 14
+ },
+ {
+  "id": "G3-contract-error|placebo|15",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 15
+ },
+ {
+  "id": "G3-contract-error|placebo|16",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 16
+ },
+ {
+  "id": "G3-contract-error|placebo|17",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 17
+ },
+ {
+  "id": "G3-contract-error|placebo|18",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 18
+ },
+ {
+  "id": "G3-contract-error|placebo|19",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 19
+ },
+ {
+  "id": "G3-contract-error|placebo|20",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 20
+ },
+ {
+  "id": "G3-contract-error|placebo|21",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 21
+ },
+ {
+  "id": "G3-contract-error|placebo|22",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 22
+ },
+ {
+  "id": "G3-contract-error|placebo|23",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 23
+ },
+ {
+  "id": "G3-contract-error|placebo|24",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 24
+ },
+ {
+  "id": "G3-contract-error|placebo|25",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 25
+ },
+ {
+  "id": "G3-contract-error|placebo|26",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 26
+ },
+ {
+  "id": "G3-contract-error|placebo|27",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 27
+ },
+ {
+  "id": "G3-contract-error|placebo|28",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 28
+ },
+ {
+  "id": "G3-contract-error|placebo|29",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 29
+ },
+ {
+  "id": "G3-contract-error|placebo|30",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 30
+ },
+ {
+  "id": "G3-contract-error|placebo|31",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 31
+ },
+ {
+  "id": "G3-contract-error|placebo|32",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 32
+ },
+ {
+  "id": "G3-contract-error|placebo|33",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 33
+ },
+ {
+  "id": "G3-contract-error|placebo|34",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 34
+ },
+ {
+  "id": "G3-contract-error|placebo|35",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 35
+ },
+ {
+  "id": "G3-contract-error|placebo|36",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 36
+ },
+ {
+  "id": "G3-contract-error|placebo|37",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 37
+ },
+ {
+  "id": "G3-contract-error|placebo|38",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 38
+ },
+ {
+  "id": "G3-contract-error|placebo|39",
+  "task": "G3-contract-error",
+  "arm": "placebo",
+  "rep": 39
+ },
+ {
+  "id": "G3-contract-error|sysproof|0",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 0
+ },
+ {
+  "id": "G3-contract-error|sysproof|1",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 1
+ },
+ {
+  "id": "G3-contract-error|sysproof|2",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 2
+ },
+ {
+  "id": "G3-contract-error|sysproof|3",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 3
+ },
+ {
+  "id": "G3-contract-error|sysproof|4",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 4
+ },
+ {
+  "id": "G3-contract-error|sysproof|5",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 5
+ },
+ {
+  "id": "G3-contract-error|sysproof|6",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 6
+ },
+ {
+  "id": "G3-contract-error|sysproof|7",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 7
+ },
+ {
+  "id": "G3-contract-error|sysproof|8",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 8
+ },
+ {
+  "id": "G3-contract-error|sysproof|9",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 9
+ },
+ {
+  "id": "G3-contract-error|sysproof|10",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 10
+ },
+ {
+  "id": "G3-contract-error|sysproof|11",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 11
+ },
+ {
+  "id": "G3-contract-error|sysproof|12",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 12
+ },
+ {
+  "id": "G3-contract-error|sysproof|13",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 13
+ },
+ {
+  "id": "G3-contract-error|sysproof|14",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 14
+ },
+ {
+  "id": "G3-contract-error|sysproof|15",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 15
+ },
+ {
+  "id": "G3-contract-error|sysproof|16",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 16
+ },
+ {
+  "id": "G3-contract-error|sysproof|17",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 17
+ },
+ {
+  "id": "G3-contract-error|sysproof|18",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 18
+ },
+ {
+  "id": "G3-contract-error|sysproof|19",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 19
+ },
+ {
+  "id": "G3-contract-error|sysproof|20",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 20
+ },
+ {
+  "id": "G3-contract-error|sysproof|21",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 21
+ },
+ {
+  "id": "G3-contract-error|sysproof|22",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 22
+ },
+ {
+  "id": "G3-contract-error|sysproof|23",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 23
+ },
+ {
+  "id": "G3-contract-error|sysproof|24",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 24
+ },
+ {
+  "id": "G3-contract-error|sysproof|25",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 25
+ },
+ {
+  "id": "G3-contract-error|sysproof|26",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 26
+ },
+ {
+  "id": "G3-contract-error|sysproof|27",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 27
+ },
+ {
+  "id": "G3-contract-error|sysproof|28",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 28
+ },
+ {
+  "id": "G3-contract-error|sysproof|29",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 29
+ },
+ {
+  "id": "G3-contract-error|sysproof|30",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 30
+ },
+ {
+  "id": "G3-contract-error|sysproof|31",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 31
+ },
+ {
+  "id": "G3-contract-error|sysproof|32",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 32
+ },
+ {
+  "id": "G3-contract-error|sysproof|33",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 33
+ },
+ {
+  "id": "G3-contract-error|sysproof|34",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 34
+ },
+ {
+  "id": "G3-contract-error|sysproof|35",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 35
+ },
+ {
+  "id": "G3-contract-error|sysproof|36",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 36
+ },
+ {
+  "id": "G3-contract-error|sysproof|37",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 37
+ },
+ {
+  "id": "G3-contract-error|sysproof|38",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 38
+ },
+ {
+  "id": "G3-contract-error|sysproof|39",
+  "task": "G3-contract-error",
+  "arm": "sysproof",
+  "rep": 39
+ },
+ {
+  "id": "G3-contract-error|convention|0",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 0
+ },
+ {
+  "id": "G3-contract-error|convention|1",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 1
+ },
+ {
+  "id": "G3-contract-error|convention|2",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 2
+ },
+ {
+  "id": "G3-contract-error|convention|3",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 3
+ },
+ {
+  "id": "G3-contract-error|convention|4",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 4
+ },
+ {
+  "id": "G3-contract-error|convention|5",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 5
+ },
+ {
+  "id": "G3-contract-error|convention|6",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 6
+ },
+ {
+  "id": "G3-contract-error|convention|7",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 7
+ },
+ {
+  "id": "G3-contract-error|convention|8",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 8
+ },
+ {
+  "id": "G3-contract-error|convention|9",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 9
+ },
+ {
+  "id": "G3-contract-error|convention|10",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 10
+ },
+ {
+  "id": "G3-contract-error|convention|11",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 11
+ },
+ {
+  "id": "G3-contract-error|convention|12",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 12
+ },
+ {
+  "id": "G3-contract-error|convention|13",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 13
+ },
+ {
+  "id": "G3-contract-error|convention|14",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 14
+ },
+ {
+  "id": "G3-contract-error|convention|15",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 15
+ },
+ {
+  "id": "G3-contract-error|convention|16",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 16
+ },
+ {
+  "id": "G3-contract-error|convention|17",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 17
+ },
+ {
+  "id": "G3-contract-error|convention|18",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 18
+ },
+ {
+  "id": "G3-contract-error|convention|19",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 19
+ },
+ {
+  "id": "G3-contract-error|convention|20",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 20
+ },
+ {
+  "id": "G3-contract-error|convention|21",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 21
+ },
+ {
+  "id": "G3-contract-error|convention|22",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 22
+ },
+ {
+  "id": "G3-contract-error|convention|23",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 23
+ },
+ {
+  "id": "G3-contract-error|convention|24",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 24
+ },
+ {
+  "id": "G3-contract-error|convention|25",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 25
+ },
+ {
+  "id": "G3-contract-error|convention|26",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 26
+ },
+ {
+  "id": "G3-contract-error|convention|27",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 27
+ },
+ {
+  "id": "G3-contract-error|convention|28",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 28
+ },
+ {
+  "id": "G3-contract-error|convention|29",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 29
+ },
+ {
+  "id": "G3-contract-error|convention|30",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 30
+ },
+ {
+  "id": "G3-contract-error|convention|31",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 31
+ },
+ {
+  "id": "G3-contract-error|convention|32",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 32
+ },
+ {
+  "id": "G3-contract-error|convention|33",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 33
+ },
+ {
+  "id": "G3-contract-error|convention|34",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 34
+ },
+ {
+  "id": "G3-contract-error|convention|35",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 35
+ },
+ {
+  "id": "G3-contract-error|convention|36",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 36
+ },
+ {
+  "id": "G3-contract-error|convention|37",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 37
+ },
+ {
+  "id": "G3-contract-error|convention|38",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 38
+ },
+ {
+  "id": "G3-contract-error|convention|39",
+  "task": "G3-contract-error",
+  "arm": "convention",
+  "rep": 39
+ },
+ {
+  "id": "G3-contract-error|exec_only|0",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 0
+ },
+ {
+  "id": "G3-contract-error|exec_only|1",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 1
+ },
+ {
+  "id": "G3-contract-error|exec_only|2",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 2
+ },
+ {
+  "id": "G3-contract-error|exec_only|3",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 3
+ },
+ {
+  "id": "G3-contract-error|exec_only|4",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 4
+ },
+ {
+  "id": "G3-contract-error|exec_only|5",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 5
+ },
+ {
+  "id": "G3-contract-error|exec_only|6",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 6
+ },
+ {
+  "id": "G3-contract-error|exec_only|7",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 7
+ },
+ {
+  "id": "G3-contract-error|exec_only|8",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 8
+ },
+ {
+  "id": "G3-contract-error|exec_only|9",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 9
+ },
+ {
+  "id": "G3-contract-error|exec_only|10",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 10
+ },
+ {
+  "id": "G3-contract-error|exec_only|11",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 11
+ },
+ {
+  "id": "G3-contract-error|exec_only|12",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 12
+ },
+ {
+  "id": "G3-contract-error|exec_only|13",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 13
+ },
+ {
+  "id": "G3-contract-error|exec_only|14",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 14
+ },
+ {
+  "id": "G3-contract-error|exec_only|15",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 15
+ },
+ {
+  "id": "G3-contract-error|exec_only|16",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 16
+ },
+ {
+  "id": "G3-contract-error|exec_only|17",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 17
+ },
+ {
+  "id": "G3-contract-error|exec_only|18",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 18
+ },
+ {
+  "id": "G3-contract-error|exec_only|19",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 19
+ },
+ {
+  "id": "G3-contract-error|exec_only|20",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 20
+ },
+ {
+  "id": "G3-contract-error|exec_only|21",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 21
+ },
+ {
+  "id": "G3-contract-error|exec_only|22",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 22
+ },
+ {
+  "id": "G3-contract-error|exec_only|23",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 23
+ },
+ {
+  "id": "G3-contract-error|exec_only|24",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 24
+ },
+ {
+  "id": "G3-contract-error|exec_only|25",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 25
+ },
+ {
+  "id": "G3-contract-error|exec_only|26",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 26
+ },
+ {
+  "id": "G3-contract-error|exec_only|27",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 27
+ },
+ {
+  "id": "G3-contract-error|exec_only|28",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 28
+ },
+ {
+  "id": "G3-contract-error|exec_only|29",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 29
+ },
+ {
+  "id": "G3-contract-error|exec_only|30",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 30
+ },
+ {
+  "id": "G3-contract-error|exec_only|31",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 31
+ },
+ {
+  "id": "G3-contract-error|exec_only|32",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 32
+ },
+ {
+  "id": "G3-contract-error|exec_only|33",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 33
+ },
+ {
+  "id": "G3-contract-error|exec_only|34",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 34
+ },
+ {
+  "id": "G3-contract-error|exec_only|35",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 35
+ },
+ {
+  "id": "G3-contract-error|exec_only|36",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 36
+ },
+ {
+  "id": "G3-contract-error|exec_only|37",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 37
+ },
+ {
+  "id": "G3-contract-error|exec_only|38",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 38
+ },
+ {
+  "id": "G3-contract-error|exec_only|39",
+  "task": "G3-contract-error",
+  "arm": "exec_only",
+  "rep": 39
+ },
+ {
+  "id": "G3-contract-error|stop_only|0",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 0
+ },
+ {
+  "id": "G3-contract-error|stop_only|1",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 1
+ },
+ {
+  "id": "G3-contract-error|stop_only|2",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 2
+ },
+ {
+  "id": "G3-contract-error|stop_only|3",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 3
+ },
+ {
+  "id": "G3-contract-error|stop_only|4",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 4
+ },
+ {
+  "id": "G3-contract-error|stop_only|5",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 5
+ },
+ {
+  "id": "G3-contract-error|stop_only|6",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 6
+ },
+ {
+  "id": "G3-contract-error|stop_only|7",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 7
+ },
+ {
+  "id": "G3-contract-error|stop_only|8",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 8
+ },
+ {
+  "id": "G3-contract-error|stop_only|9",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 9
+ },
+ {
+  "id": "G3-contract-error|stop_only|10",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 10
+ },
+ {
+  "id": "G3-contract-error|stop_only|11",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 11
+ },
+ {
+  "id": "G3-contract-error|stop_only|12",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 12
+ },
+ {
+  "id": "G3-contract-error|stop_only|13",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 13
+ },
+ {
+  "id": "G3-contract-error|stop_only|14",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 14
+ },
+ {
+  "id": "G3-contract-error|stop_only|15",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 15
+ },
+ {
+  "id": "G3-contract-error|stop_only|16",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 16
+ },
+ {
+  "id": "G3-contract-error|stop_only|17",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 17
+ },
+ {
+  "id": "G3-contract-error|stop_only|18",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 18
+ },
+ {
+  "id": "G3-contract-error|stop_only|19",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 19
+ },
+ {
+  "id": "G3-contract-error|stop_only|20",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 20
+ },
+ {
+  "id": "G3-contract-error|stop_only|21",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 21
+ },
+ {
+  "id": "G3-contract-error|stop_only|22",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 22
+ },
+ {
+  "id": "G3-contract-error|stop_only|23",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 23
+ },
+ {
+  "id": "G3-contract-error|stop_only|24",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 24
+ },
+ {
+  "id": "G3-contract-error|stop_only|25",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 25
+ },
+ {
+  "id": "G3-contract-error|stop_only|26",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 26
+ },
+ {
+  "id": "G3-contract-error|stop_only|27",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 27
+ },
+ {
+  "id": "G3-contract-error|stop_only|28",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 28
+ },
+ {
+  "id": "G3-contract-error|stop_only|29",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 29
+ },
+ {
+  "id": "G3-contract-error|stop_only|30",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 30
+ },
+ {
+  "id": "G3-contract-error|stop_only|31",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 31
+ },
+ {
+  "id": "G3-contract-error|stop_only|32",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 32
+ },
+ {
+  "id": "G3-contract-error|stop_only|33",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 33
+ },
+ {
+  "id": "G3-contract-error|stop_only|34",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 34
+ },
+ {
+  "id": "G3-contract-error|stop_only|35",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 35
+ },
+ {
+  "id": "G3-contract-error|stop_only|36",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 36
+ },
+ {
+  "id": "G3-contract-error|stop_only|37",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 37
+ },
+ {
+  "id": "G3-contract-error|stop_only|38",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 38
+ },
+ {
+  "id": "G3-contract-error|stop_only|39",
+  "task": "G3-contract-error",
+  "arm": "stop_only",
+  "rep": 39
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|0",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 0
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|1",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 1
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|2",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 2
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|3",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 3
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|4",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 4
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|5",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 5
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|6",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 6
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|7",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 7
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|8",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 8
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|9",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 9
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|10",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 10
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|11",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 11
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|12",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 12
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|13",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 13
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|14",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 14
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|15",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 15
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|16",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 16
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|17",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 17
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|18",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 18
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|19",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 19
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|20",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 20
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|21",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 21
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|22",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 22
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|23",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 23
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|24",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 24
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|25",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 25
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|26",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 26
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|27",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 27
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|28",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 28
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|29",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 29
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|30",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 30
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|31",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 31
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|32",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 32
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|33",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 33
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|34",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 34
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|35",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 35
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|36",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 36
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|37",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 37
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|38",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 38
+ },
+ {
+  "id": "G3-contract-error|verbose_principle|39",
+  "task": "G3-contract-error",
+  "arm": "verbose_principle",
+  "rep": 39
+ },
+ {
+  "id": "G4-constraint-dedupe|control|0",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 0
+ },
+ {
+  "id": "G4-constraint-dedupe|control|1",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 1
+ },
+ {
+  "id": "G4-constraint-dedupe|control|2",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 2
+ },
+ {
+  "id": "G4-constraint-dedupe|control|3",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 3
+ },
+ {
+  "id": "G4-constraint-dedupe|control|4",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 4
+ },
+ {
+  "id": "G4-constraint-dedupe|control|5",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 5
+ },
+ {
+  "id": "G4-constraint-dedupe|control|6",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 6
+ },
+ {
+  "id": "G4-constraint-dedupe|control|7",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 7
+ },
+ {
+  "id": "G4-constraint-dedupe|control|8",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 8
+ },
+ {
+  "id": "G4-constraint-dedupe|control|9",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 9
+ },
+ {
+  "id": "G4-constraint-dedupe|control|10",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 10
+ },
+ {
+  "id": "G4-constraint-dedupe|control|11",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 11
+ },
+ {
+  "id": "G4-constraint-dedupe|control|12",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 12
+ },
+ {
+  "id": "G4-constraint-dedupe|control|13",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 13
+ },
+ {
+  "id": "G4-constraint-dedupe|control|14",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 14
+ },
+ {
+  "id": "G4-constraint-dedupe|control|15",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 15
+ },
+ {
+  "id": "G4-constraint-dedupe|control|16",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 16
+ },
+ {
+  "id": "G4-constraint-dedupe|control|17",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 17
+ },
+ {
+  "id": "G4-constraint-dedupe|control|18",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 18
+ },
+ {
+  "id": "G4-constraint-dedupe|control|19",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 19
+ },
+ {
+  "id": "G4-constraint-dedupe|control|20",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 20
+ },
+ {
+  "id": "G4-constraint-dedupe|control|21",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 21
+ },
+ {
+  "id": "G4-constraint-dedupe|control|22",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 22
+ },
+ {
+  "id": "G4-constraint-dedupe|control|23",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 23
+ },
+ {
+  "id": "G4-constraint-dedupe|control|24",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 24
+ },
+ {
+  "id": "G4-constraint-dedupe|control|25",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 25
+ },
+ {
+  "id": "G4-constraint-dedupe|control|26",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 26
+ },
+ {
+  "id": "G4-constraint-dedupe|control|27",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 27
+ },
+ {
+  "id": "G4-constraint-dedupe|control|28",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 28
+ },
+ {
+  "id": "G4-constraint-dedupe|control|29",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 29
+ },
+ {
+  "id": "G4-constraint-dedupe|control|30",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 30
+ },
+ {
+  "id": "G4-constraint-dedupe|control|31",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 31
+ },
+ {
+  "id": "G4-constraint-dedupe|control|32",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 32
+ },
+ {
+  "id": "G4-constraint-dedupe|control|33",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 33
+ },
+ {
+  "id": "G4-constraint-dedupe|control|34",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 34
+ },
+ {
+  "id": "G4-constraint-dedupe|control|35",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 35
+ },
+ {
+  "id": "G4-constraint-dedupe|control|36",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 36
+ },
+ {
+  "id": "G4-constraint-dedupe|control|37",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 37
+ },
+ {
+  "id": "G4-constraint-dedupe|control|38",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 38
+ },
+ {
+  "id": "G4-constraint-dedupe|control|39",
+  "task": "G4-constraint-dedupe",
+  "arm": "control",
+  "rep": 39
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|0",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 0
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|1",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 1
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|2",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 2
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|3",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 3
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|4",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 4
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|5",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 5
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|6",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 6
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|7",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 7
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|8",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 8
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|9",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 9
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|10",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 10
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|11",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 11
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|12",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 12
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|13",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 13
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|14",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 14
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|15",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 15
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|16",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 16
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|17",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 17
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|18",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 18
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|19",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 19
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|20",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 20
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|21",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 21
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|22",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 22
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|23",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 23
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|24",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 24
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|25",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 25
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|26",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 26
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|27",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 27
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|28",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 28
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|29",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 29
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|30",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 30
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|31",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 31
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|32",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 32
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|33",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 33
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|34",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 34
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|35",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 35
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|36",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 36
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|37",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 37
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|38",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 38
+ },
+ {
+  "id": "G4-constraint-dedupe|placebo|39",
+  "task": "G4-constraint-dedupe",
+  "arm": "placebo",
+  "rep": 39
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|0",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 0
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|1",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 1
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|2",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 2
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|3",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 3
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|4",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 4
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|5",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 5
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|6",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 6
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|7",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 7
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|8",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 8
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|9",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 9
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|10",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 10
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|11",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 11
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|12",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 12
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|13",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 13
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|14",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 14
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|15",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 15
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|16",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 16
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|17",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 17
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|18",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 18
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|19",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 19
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|20",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 20
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|21",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 21
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|22",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 22
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|23",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 23
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|24",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 24
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|25",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 25
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|26",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 26
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|27",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 27
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|28",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 28
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|29",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 29
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|30",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 30
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|31",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 31
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|32",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 32
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|33",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 33
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|34",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 34
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|35",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 35
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|36",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 36
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|37",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 37
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|38",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 38
+ },
+ {
+  "id": "G4-constraint-dedupe|sysproof|39",
+  "task": "G4-constraint-dedupe",
+  "arm": "sysproof",
+  "rep": 39
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|0",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 0
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|1",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 1
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|2",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 2
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|3",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 3
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|4",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 4
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|5",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 5
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|6",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 6
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|7",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 7
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|8",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 8
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|9",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 9
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|10",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 10
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|11",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 11
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|12",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 12
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|13",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 13
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|14",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 14
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|15",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 15
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|16",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 16
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|17",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 17
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|18",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 18
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|19",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 19
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|20",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 20
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|21",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 21
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|22",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 22
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|23",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 23
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|24",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 24
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|25",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 25
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|26",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 26
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|27",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 27
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|28",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 28
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|29",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 29
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|30",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 30
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|31",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 31
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|32",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 32
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|33",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 33
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|34",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 34
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|35",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 35
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|36",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 36
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|37",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 37
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|38",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 38
+ },
+ {
+  "id": "G4-constraint-dedupe|convention|39",
+  "task": "G4-constraint-dedupe",
+  "arm": "convention",
+  "rep": 39
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|0",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 0
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|1",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 1
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|2",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 2
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|3",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 3
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|4",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 4
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|5",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 5
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|6",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 6
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|7",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 7
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|8",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 8
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|9",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 9
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|10",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 10
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|11",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 11
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|12",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 12
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|13",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 13
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|14",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 14
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|15",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 15
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|16",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 16
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|17",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 17
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|18",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 18
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|19",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 19
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|20",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 20
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|21",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 21
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|22",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 22
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|23",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 23
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|24",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 24
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|25",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 25
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|26",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 26
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|27",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 27
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|28",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 28
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|29",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 29
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|30",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 30
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|31",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 31
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|32",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 32
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|33",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 33
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|34",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 34
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|35",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 35
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|36",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 36
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|37",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 37
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|38",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 38
+ },
+ {
+  "id": "G4-constraint-dedupe|exec_only|39",
+  "task": "G4-constraint-dedupe",
+  "arm": "exec_only",
+  "rep": 39
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|0",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 0
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|1",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 1
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|2",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 2
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|3",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 3
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|4",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 4
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|5",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 5
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|6",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 6
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|7",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 7
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|8",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 8
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|9",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 9
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|10",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 10
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|11",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 11
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|12",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 12
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|13",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 13
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|14",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 14
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|15",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 15
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|16",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 16
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|17",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 17
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|18",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 18
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|19",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 19
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|20",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 20
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|21",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 21
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|22",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 22
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|23",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 23
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|24",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 24
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|25",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 25
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|26",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 26
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|27",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 27
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|28",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 28
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|29",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 29
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|30",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 30
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|31",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 31
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|32",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 32
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|33",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 33
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|34",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 34
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|35",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 35
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|36",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 36
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|37",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 37
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|38",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 38
+ },
+ {
+  "id": "G4-constraint-dedupe|stop_only|39",
+  "task": "G4-constraint-dedupe",
+  "arm": "stop_only",
+  "rep": 39
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|0",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 0
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|1",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 1
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|2",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 2
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|3",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 3
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|4",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 4
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|5",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 5
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|6",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 6
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|7",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 7
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|8",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 8
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|9",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 9
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|10",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 10
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|11",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 11
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|12",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 12
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|13",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 13
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|14",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 14
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|15",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 15
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|16",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 16
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|17",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 17
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|18",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 18
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|19",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 19
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|20",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 20
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|21",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 21
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|22",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 22
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|23",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 23
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|24",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 24
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|25",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 25
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|26",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 26
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|27",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 27
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|28",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 28
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|29",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 29
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|30",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 30
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|31",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 31
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|32",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 32
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|33",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 33
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|34",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 34
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|35",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 35
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|36",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 36
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|37",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 37
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|38",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 38
+ },
+ {
+  "id": "G4-constraint-dedupe|verbose_principle|39",
+  "task": "G4-constraint-dedupe",
+  "arm": "verbose_principle",
+  "rep": 39
+ }
+]

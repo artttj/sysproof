@@ -1,0 +1,722 @@
+[
+ {
+  "id": "01-normalize-tags|control|0",
+  "task": "01-normalize-tags",
+  "arm": "control",
+  "rep": 0,
+  "solution_code": "def normalize_tags(tags):\n    seen = set()\n    result = []\n    for tag in tags:\n        normalized = tag.lower()\n        if normalized not in seen:\n            seen.add(normalized)\n            result.append(normalized)\n    return result\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "01-normalize-tags|control|1",
+  "task": "01-normalize-tags",
+  "arm": "control",
+  "rep": 1,
+  "solution_code": "def normalize_tags(tags):\n    seen = set()\n    result = []\n    for tag in tags:\n        normalized = tag.lower()\n        if normalized not in seen:\n            seen.add(normalized)\n            result.append(normalized)\n    return result\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "01-normalize-tags|control|2",
+  "task": "01-normalize-tags",
+  "arm": "control",
+  "rep": 2,
+  "solution_code": "def normalize_tags(tags):\n    seen = set()\n    result = []\n    for tag in tags:\n        normalized = tag.lower()\n        if normalized not in seen:\n            seen.add(normalized)\n            result.append(normalized)\n    return result\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "01-normalize-tags|placebo|0",
+  "task": "01-normalize-tags",
+  "arm": "placebo",
+  "rep": 0,
+  "solution_code": "def normalize_tags(tags):\n    seen = set()\n    result = []\n    for tag in tags:\n        normalized = tag.lower()\n        if normalized not in seen:\n            seen.add(normalized)\n            result.append(normalized)\n    return result\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "01-normalize-tags|placebo|1",
+  "task": "01-normalize-tags",
+  "arm": "placebo",
+  "rep": 1,
+  "solution_code": "def normalize_tags(tags):\n    seen = set()\n    result = []\n    for tag in tags:\n        lowered = tag.lower()\n        if lowered not in seen:\n            seen.add(lowered)\n            result.append(lowered)\n    return result\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "01-normalize-tags|placebo|2",
+  "task": "01-normalize-tags",
+  "arm": "placebo",
+  "rep": 2,
+  "solution_code": "def normalize_tags(tags):\n    seen = set()\n    result = []\n    for tag in tags:\n        normalized = tag.lower()\n        if normalized not in seen:\n            seen.add(normalized)\n            result.append(normalized)\n    return result\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "01-normalize-tags|sysproof|0",
+  "task": "01-normalize-tags",
+  "arm": "sysproof",
+  "rep": 0,
+  "solution_code": "def normalize_tags(tags):\n    seen = set()\n    result = []\n    for tag in tags:\n        normalized = tag.lower()\n        if normalized not in seen:\n            seen.add(normalized)\n            result.append(normalized)\n    return result\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "01-normalize-tags|sysproof|1",
+  "task": "01-normalize-tags",
+  "arm": "sysproof",
+  "rep": 1,
+  "solution_code": "def normalize_tags(tags):\n    seen = set()\n    result = []\n    for tag in tags:\n        normalized = tag.lower()\n        if normalized not in seen:\n            seen.add(normalized)\n            result.append(normalized)\n    return result\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "01-normalize-tags|sysproof|2",
+  "task": "01-normalize-tags",
+  "arm": "sysproof",
+  "rep": 2,
+  "solution_code": "def normalize_tags(tags):\n    seen = set()\n    result = []\n    for tag in tags:\n        normalized = tag.lower()\n        if normalized not in seen:\n            seen.add(normalized)\n            result.append(normalized)\n    return result\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "02-truncate-headline|control|0",
+  "task": "02-truncate-headline",
+  "arm": "control",
+  "rep": 0,
+  "solution_code": "def truncate_headline(text, limit):\n    if len(text) <= limit:\n        return text\n    # The ellipsis character '\u2026' is 1 character\n    # So the truncated text can be at most (limit - 1) chars before the ellipsis\n    available = limit - 1\n    if available <= 0:\n        return '\u2026'\n    # Find the last word boundary within available chars\n    truncated = text[:available]\n    last_space = truncated.rfind(' ')\n    if last_space == -1:\n        # No space found, cut at available chars\n        return truncated + '\u2026'\n    return truncated[:last_space] + '\u2026'\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "02-truncate-headline|control|1",
+  "task": "02-truncate-headline",
+  "arm": "control",
+  "rep": 1,
+  "solution_code": "def truncate_headline(text, limit):\n    if len(text) <= limit:\n        return text\n    # We need to fit within limit chars including the ellipsis character '\u2026'\n    # '\u2026' is a single character, so we have limit-1 chars for the text portion\n    available = limit - 1  # 1 char for '\u2026'\n    truncated = text[:available]\n    # If the character right after our cut is a space or we're at the end,\n    # the cut is already on a word boundary. Otherwise find the last space.\n    if len(text) > available and text[available] != ' ':\n        last_space = truncated.rfind(' ')\n        if last_space > 0:\n            truncated = truncated[:last_space]\n    return truncated + '\u2026'\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "02-truncate-headline|control|2",
+  "task": "02-truncate-headline",
+  "arm": "control",
+  "rep": 2,
+  "solution_code": "def truncate_headline(text, limit):\n    if len(text) <= limit:\n        return text\n    truncated = text[:limit - 1]\n    last_space = truncated.rfind(' ')\n    if last_space > 0:\n        truncated = truncated[:last_space]\n    return truncated + '\u2026'\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "02-truncate-headline|placebo|0",
+  "task": "02-truncate-headline",
+  "arm": "placebo",
+  "rep": 0,
+  "solution_code": "def truncate_headline(text, limit):\n    \"\"\"\n    Shortens a headline to fit within `limit` characters, cutting on a word\n    boundary and ending with a single ellipsis character '\u2026'.\n    If the text already fits within `limit`, return it unchanged.\n    \"\"\"\n    if len(text) <= limit:\n        return text\n\n    # '\u2026' is a single character, so we have (limit - 1) chars for the text portion.\n    available = limit - 1  # 1 char for ellipsis\n\n    if available <= 0:\n        # Edge case: limit is 0 or 1, can only return ellipsis or nothing\n        return '\u2026'[:limit]\n\n    # Cut at available chars\n    truncated = text[:available]\n\n    # Check if we're already at a word boundary:\n    # If the next character after our cut is a space (or we're at the end),\n    # then truncated ends at a full word.\n    next_char_is_boundary = (available >= len(text) or text[available] in ' \\t\\n')\n\n    if next_char_is_boundary:\n        # Already at word boundary, strip trailing spaces and add ellipsis\n        return truncated.rstrip() + '\u2026'\n    else:\n        # We're mid-word, find the last space to cut cleanly\n        last_space = truncated.rfind(' ')\n        if last_space == -1:\n            # No space found, just cut at available (best we can do)\n            return truncated + '\u2026'\n        else:\n            return truncated[:last_space] + '\u2026'\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "02-truncate-headline|placebo|1",
+  "task": "02-truncate-headline",
+  "arm": "placebo",
+  "rep": 1,
+  "solution_code": "def truncate_headline(text, limit):\n    \"\"\"Shortens a headline to fit within limit characters.\n\n    Cuts on a word boundary and ends with a single ellipsis character '\u2026'.\n    If the text already fits within limit, returns it unchanged.\n    \"\"\"\n    if len(text) <= limit:\n        return text\n\n    # We need to fit within limit chars including the ellipsis '\u2026'\n    # '\u2026' is a single character, so we have limit-1 chars for the text portion\n    available = limit - 1  # reserve 1 char for '\u2026'\n\n    # Truncate at available chars and find the last word boundary\n    truncated = text[:available]\n\n    # Find the last space to cut on a word boundary\n    last_space = truncated.rfind(' ')\n\n    if last_space == -1:\n        # No space found, hard cut at available chars\n        return truncated + '\u2026'\n\n    # Cut at the last space (don't include trailing space)\n    return truncated[:last_space] + '\u2026'\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "02-truncate-headline|placebo|2",
+  "task": "02-truncate-headline",
+  "arm": "placebo",
+  "rep": 2,
+  "solution_code": "def truncate_headline(text, limit):\n    \"\"\"Shorten a headline to fit within limit characters.\n\n    Cuts on a word boundary and appends a single ellipsis character '\u2026'.\n    If the text already fits within limit, returns it unchanged.\n    \"\"\"\n    if len(text) <= limit:\n        return text\n    # Reserve one character for the ellipsis\n    available = limit - 1\n    truncated = text[:available]\n    last_space = truncated.rfind(' ')\n    if last_space > 0:\n        truncated = truncated[:last_space]\n    return truncated + '\u2026'\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "02-truncate-headline|sysproof|0",
+  "task": "02-truncate-headline",
+  "arm": "sysproof",
+  "rep": 0,
+  "solution_code": "def truncate_headline(text, limit):\n    \"\"\"Shorten a headline to fit within limit characters.\n\n    Cuts on a word boundary and ends with ellipsis '\u2026'.\n    If the text already fits within limit, returns it unchanged.\n    \"\"\"\n    if len(text) <= limit:\n        return text\n\n    # Reserve 1 character for the ellipsis '\u2026'\n    available = limit - 1\n\n    if available <= 0:\n        return '\u2026'\n\n    truncated = text[:available]\n\n    # Find the last space to cut on a word boundary\n    last_space = truncated.rfind(' ')\n\n    if last_space > 0:\n        truncated = truncated[:last_space].rstrip()\n    # If no space found, cut mid-word (unavoidable at very tight limits)\n\n    return truncated + '\u2026'\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "02-truncate-headline|sysproof|1",
+  "task": "02-truncate-headline",
+  "arm": "sysproof",
+  "rep": 1,
+  "solution_code": "def truncate_headline(text, limit):\n    \"\"\"\n    Shortens a headline to fit within `limit` characters, cutting on a word\n    boundary and ending with a single ellipsis character '\u2026'.\n    If the text already fits within `limit`, return it unchanged.\n    \"\"\"\n    if len(text) <= limit:\n        return text\n\n    # We need to fit: some words + '\u2026' within `limit` characters.\n    # The ellipsis itself takes 1 character.\n    available = limit - 1  # reserve 1 char for '\u2026'\n\n    if available < 0:\n        return \"\"\n    if available == 0:\n        return \"\u2026\"\n\n    # Truncate to `available` characters, then cut back to last word boundary\n    truncated = text[:available]\n\n    # If the next character in the original text is not a space, we cut mid-word;\n    # find the last space in the truncated portion.\n    if len(text) > available and text[available] != ' ':\n        last_space = truncated.rfind(' ')\n        if last_space != -1:\n            truncated = truncated[:last_space]\n\n    # Strip any trailing spaces\n    truncated = truncated.rstrip()\n\n    return truncated + '\u2026'\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "02-truncate-headline|sysproof|2",
+  "task": "02-truncate-headline",
+  "arm": "sysproof",
+  "rep": 2,
+  "solution_code": "def truncate_headline(text, limit):\n    \"\"\"Shorten a headline to fit within limit characters.\n\n    Cuts on a word boundary and appends a single ellipsis character '\u2026'.\n    If the text already fits within limit, return it unchanged.\n    \"\"\"\n    if len(text) <= limit:\n        return text\n\n    # The ellipsis takes 1 character, so we have (limit - 1) chars for text\n    available = limit - 1\n\n    if available <= 0:\n        return \"\u2026\"\n\n    # Truncate at available characters\n    truncated = text[:available]\n\n    # Find the last word boundary (space)\n    last_space = truncated.rfind(' ')\n\n    if last_space > 0:\n        truncated = truncated[:last_space]\n\n    return truncated + '\u2026'\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "03-parse-iso-date|control|0",
+  "task": "03-parse-iso-date",
+  "arm": "control",
+  "rep": 0,
+  "solution_code": "import re\n\n\ndef parse_iso_date(s):\n    if not isinstance(s, str):\n        raise ValueError(f\"Expected a string, got {type(s)}\")\n    match = re.fullmatch(r'(\\d{4})-(\\d{2})-(\\d{2})', s)\n    if not match:\n        raise ValueError(f\"Invalid ISO date format: {s!r}\")\n    year, month, day = int(match.group(1)), int(match.group(2)), int(match.group(3))\n    if not (1 <= month <= 12):\n        raise ValueError(f\"Invalid month: {month}\")\n    days_in_month = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]\n    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):\n        days_in_month[2] = 29\n    if not (1 <= day <= days_in_month[month]):\n        raise ValueError(f\"Invalid day {day} for month {month} in year {year}\")\n    return (year, month, day)\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "03-parse-iso-date|control|1",
+  "task": "03-parse-iso-date",
+  "arm": "control",
+  "rep": 1,
+  "solution_code": "import re\n\n\ndef parse_iso_date(s):\n    if not isinstance(s, str):\n        raise ValueError(f\"Expected a string, got {type(s)}\")\n    match = re.fullmatch(r'(\\d{4})-(\\d{2})-(\\d{2})', s)\n    if not match:\n        raise ValueError(f\"Invalid ISO date format: {s!r}\")\n    year, month, day = int(match.group(1)), int(match.group(2)), int(match.group(3))\n    if not (1 <= month <= 12):\n        raise ValueError(f\"Invalid month: {month}\")\n    days_in_month = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]\n    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):\n        days_in_month[2] = 29\n    if not (1 <= day <= days_in_month[month]):\n        raise ValueError(f\"Invalid day {day} for month {month} in year {year}\")\n    return (year, month, day)\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "03-parse-iso-date|control|2",
+  "task": "03-parse-iso-date",
+  "arm": "control",
+  "rep": 2,
+  "solution_code": "import re\n\n\ndef parse_iso_date(s):\n    if not isinstance(s, str):\n        raise ValueError(f\"Expected a string, got {type(s)}\")\n    match = re.fullmatch(r'(\\d{4})-(\\d{2})-(\\d{2})', s)\n    if not match:\n        raise ValueError(f\"Invalid ISO date: {s!r}\")\n    year, month, day = int(match.group(1)), int(match.group(2)), int(match.group(3))\n    if not (1 <= month <= 12):\n        raise ValueError(f\"Invalid month: {month}\")\n    days_in_month = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]\n    is_leap = (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)\n    if is_leap:\n        days_in_month[2] = 29\n    if not (1 <= day <= days_in_month[month]):\n        raise ValueError(f\"Invalid day: {day} for month {month}\")\n    return (year, month, day)\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "03-parse-iso-date|placebo|0",
+  "task": "03-parse-iso-date",
+  "arm": "placebo",
+  "rep": 0,
+  "solution_code": "import re\n\n\ndef parse_iso_date(s):\n    \"\"\"Parse an ISO date string like '2026-06-05' and return (year, month, day) as ints.\n\n    Raises ValueError if the input is not a valid date.\n    \"\"\"\n    if not isinstance(s, str):\n        raise ValueError(f\"Expected a string, got {type(s)}\")\n\n    pattern = r'^\\d{4}-\\d{2}-\\d{2}$'\n    if not re.match(pattern, s):\n        raise ValueError(f\"Invalid ISO date format: {s!r}\")\n\n    year_s, month_s, day_s = s.split('-')\n    year = int(year_s)\n    month = int(month_s)\n    day = int(day_s)\n\n    # Validate month range\n    if not (1 <= month <= 12):\n        raise ValueError(f\"Invalid month: {month}\")\n\n    # Validate day range using days-per-month logic\n    days_in_month = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]\n\n    # Leap year check\n    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):\n        days_in_month[2] = 29\n\n    if not (1 <= day <= days_in_month[month]):\n        raise ValueError(f\"Invalid day {day} for month {month} in year {year}\")\n\n    return (year, month, day)\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "03-parse-iso-date|placebo|1",
+  "task": "03-parse-iso-date",
+  "arm": "placebo",
+  "rep": 1,
+  "solution_code": "import re\n\n\ndef parse_iso_date(s):\n    \"\"\"Parse an ISO date string like '2026-06-05' and return (year, month, day) as integers.\n\n    Raises ValueError if the input is not a valid date.\n    \"\"\"\n    if not isinstance(s, str):\n        raise ValueError(f\"Expected a string, got {type(s).__name__}\")\n\n    match = re.fullmatch(r'(\\d{4})-(\\d{2})-(\\d{2})', s)\n    if not match:\n        raise ValueError(f\"Invalid ISO date format: {s!r}\")\n\n    year = int(match.group(1))\n    month = int(match.group(2))\n    day = int(match.group(3))\n\n    # Validate ranges\n    if month < 1 or month > 12:\n        raise ValueError(f\"Invalid month: {month}\")\n\n    # Days per month (non-leap year)\n    days_in_month = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]\n\n    # Leap year check\n    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):\n        days_in_month[2] = 29\n\n    if day < 1 or day > days_in_month[month]:\n        raise ValueError(f\"Invalid day {day} for month {month} in year {year}\")\n\n    return (year, month, day)\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "03-parse-iso-date|placebo|2",
+  "task": "03-parse-iso-date",
+  "arm": "placebo",
+  "rep": 2,
+  "solution_code": "import re\n\n\ndef parse_iso_date(s):\n    if not isinstance(s, str):\n        raise ValueError(f\"Expected string, got {type(s)}\")\n\n    match = re.fullmatch(r'(\\d{4})-(\\d{2})-(\\d{2})', s)\n    if not match:\n        raise ValueError(f\"Invalid ISO date format: {s!r}\")\n\n    year = int(match.group(1))\n    month = int(match.group(2))\n    day = int(match.group(3))\n\n    if not (1 <= month <= 12):\n        raise ValueError(f\"Invalid month: {month}\")\n\n    days_in_month = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]\n\n    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):\n        days_in_month[2] = 29\n\n    if not (1 <= day <= days_in_month[month]):\n        raise ValueError(f\"Invalid day {day} for month {month} in year {year}\")\n\n    return (year, month, day)\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "03-parse-iso-date|sysproof|0",
+  "task": "03-parse-iso-date",
+  "arm": "sysproof",
+  "rep": 0,
+  "solution_code": "import re\n\n\ndef parse_iso_date(s):\n    \"\"\"Parse an ISO date string like '2026-06-05' and return (year, month, day) as integers.\n\n    Raises ValueError if the input is not a valid date.\n    \"\"\"\n    if not isinstance(s, str):\n        raise ValueError(f\"Expected a string, got {type(s).__name__}\")\n\n    match = re.fullmatch(r'(\\d{4})-(\\d{2})-(\\d{2})', s)\n    if not match:\n        raise ValueError(f\"Invalid ISO date format: {s!r}\")\n\n    year = int(match.group(1))\n    month = int(match.group(2))\n    day = int(match.group(3))\n\n    if month < 1 or month > 12:\n        raise ValueError(f\"Invalid month: {month}\")\n\n    # Days per month (non-leap year)\n    days_in_month = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]\n\n    # Leap year check\n    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):\n        days_in_month[2] = 29\n\n    if day < 1 or day > days_in_month[month]:\n        raise ValueError(f\"Invalid day {day} for month {month} in year {year}\")\n\n    return (year, month, day)\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "03-parse-iso-date|sysproof|1",
+  "task": "03-parse-iso-date",
+  "arm": "sysproof",
+  "rep": 1,
+  "solution_code": "import re\n\n\ndef parse_iso_date(s):\n    if not isinstance(s, str):\n        raise ValueError(f\"Expected a string, got {type(s).__name__}\")\n\n    pattern = r'^(\\d{4})-(\\d{2})-(\\d{2})$'\n    match = re.match(pattern, s)\n    if not match:\n        raise ValueError(f\"Invalid ISO date format: {s!r}\")\n\n    year, month, day = int(match.group(1)), int(match.group(2)), int(match.group(3))\n\n    if not (1 <= month <= 12):\n        raise ValueError(f\"Invalid month {month} in date: {s!r}\")\n\n    days_in_month = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]\n\n    is_leap = (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)\n    if is_leap:\n        days_in_month[2] = 29\n\n    if not (1 <= day <= days_in_month[month]):\n        raise ValueError(f\"Invalid day {day} for month {month} in date: {s!r}\")\n\n    return (year, month, day)\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "03-parse-iso-date|sysproof|2",
+  "task": "03-parse-iso-date",
+  "arm": "sysproof",
+  "rep": 2,
+  "solution_code": "import re\n\n\ndef parse_iso_date(s):\n    \"\"\"Parse an ISO date string like '2026-06-05' and return (year, month, day) as integers.\n\n    Raises ValueError if the input is not a valid date.\n    \"\"\"\n    if not isinstance(s, str):\n        raise ValueError(f\"Expected a string, got {type(s).__name__}\")\n\n    match = re.fullmatch(r'(\\d{4})-(\\d{2})-(\\d{2})', s)\n    if not match:\n        raise ValueError(f\"Invalid ISO date format: {s!r}\")\n\n    year = int(match.group(1))\n    month = int(match.group(2))\n    day = int(match.group(3))\n\n    if month < 1 or month > 12:\n        raise ValueError(f\"Invalid month: {month}\")\n\n    days_in_month = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]\n\n    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):\n        days_in_month[2] = 29\n\n    if day < 1 or day > days_in_month[month]:\n        raise ValueError(f\"Invalid day {day} for month {month} in year {year}\")\n\n    return (year, month, day)\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "04-dedupe-articles|control|0",
+  "task": "04-dedupe-articles",
+  "arm": "control",
+  "rep": 0,
+  "solution_code": "from urllib.parse import urlparse\n\n\ndef _normalize_url(url: str) -> str:\n    \"\"\"Normalize a URL to a canonical form for deduplication.\"\"\"\n    try:\n        parsed = urlparse(url.strip().lower())\n\n        # Normalize netloc - strip www. prefix\n        netloc = parsed.netloc.lstrip(\"www.\")\n\n        # Normalize path - remove trailing slash\n        path = parsed.path.rstrip(\"/\") or \"/\"\n\n        # Ignore query params and fragments: they often carry feed-specific\n        # tracking info (utm_source, etc.) that differ across feeds for the\n        # same story.\n        return f\"{netloc}{path}\"\n    except Exception:\n        return url\n\n\ndef dedupe_articles(articles):\n    \"\"\"\n    Remove duplicate articles from a list, keeping the first occurrence.\n\n    The same story may arrive from different feeds with slightly different URLs.\n    Deduplication is based on normalized URL comparison.\n    \"\"\"\n    seen = set()\n    result = []\n\n    for article in articles:\n        url = article.get(\"url\", \"\")\n        normalized = _normalize_url(url)\n\n        if normalized not in seen:\n            seen.add(normalized)\n            result.append(article)\n\n    return result\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "04-dedupe-articles|control|1",
+  "task": "04-dedupe-articles",
+  "arm": "control",
+  "rep": 1,
+  "solution_code": "from urllib.parse import urlparse\n\n\ndef normalize_url(url):\n    \"\"\"Normalize a URL for deduplication purposes.\"\"\"\n    try:\n        parsed = urlparse(url.strip().lower())\n        scheme = parsed.scheme or 'http'\n        netloc = parsed.netloc\n        if netloc.startswith('www.'):\n            netloc = netloc[4:]\n        path = parsed.path.rstrip('/')\n        if not path:\n            path = ''\n        # Drop query params and fragments (same story, different tracking params)\n        return f\"{scheme}://{netloc}{path}\"\n    except Exception:\n        return url.strip().lower()\n\n\ndef dedupe_articles(articles):\n    \"\"\"\n    Remove duplicate articles, keeping the first occurrence.\n    Deduplication is based on normalized URL to handle minor URL variations\n    such as www prefix, trailing slashes, query parameters, and case differences.\n    \"\"\"\n    seen = set()\n    result = []\n    for article in articles:\n        url = article.get('url', '')\n        key = normalize_url(url)\n        if key not in seen:\n            seen.add(key)\n            result.append(article)\n    return result\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "04-dedupe-articles|control|2",
+  "task": "04-dedupe-articles",
+  "arm": "control",
+  "rep": 2,
+  "solution_code": "from urllib.parse import urlparse, urlunparse, parse_qs, urlencode\n\n\ndef _normalize_url(url: str) -> str:\n    \"\"\"Normalize a URL to a canonical form for deduplication.\"\"\"\n    try:\n        parsed = urlparse(url.strip())\n        # Lowercase scheme and host\n        scheme = parsed.scheme.lower()\n        netloc = parsed.netloc.lower()\n        # Remove trailing slash from path unless it's just \"/\"\n        path = parsed.path.rstrip(\"/\") or \"/\"\n        # Remove common tracking parameters\n        _TRACKING_PARAMS = {\n            \"utm_source\", \"utm_medium\", \"utm_campaign\", \"utm_term\", \"utm_content\",\n            \"ref\", \"referer\", \"source\", \"fbclid\", \"gclid\", \"mc_cid\", \"mc_eid\",\n            \"yclid\", \"_ga\", \"igshid\",\n        }\n        qs = parse_qs(parsed.query, keep_blank_values=True)\n        filtered = {k: v for k, v in qs.items() if k.lower() not in _TRACKING_PARAMS}\n        # Sort query params for stable comparison\n        query = urlencode(sorted(filtered.items()))\n        # Ignore fragment\n        normalized = urlunparse((scheme, netloc, path, \"\", query, \"\"))\n        return normalized\n    except Exception:\n        return url\n\n\ndef dedupe_articles(articles):\n    \"\"\"\n    Remove duplicate articles, keeping the first occurrence.\n    Deduplication is based on a normalized URL.\n    \"\"\"\n    seen = set()\n    result = []\n    for article in articles:\n        url = article.get(\"url\", \"\")\n        key = _normalize_url(url)\n        if key not in seen:\n            seen.add(key)\n            result.append(article)\n    return result\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "04-dedupe-articles|placebo|0",
+  "task": "04-dedupe-articles",
+  "arm": "placebo",
+  "rep": 0,
+  "solution_code": "\"\"\"\ndedupe_articles module: removes duplicate articles from a list,\nkeeping the first occurrence. Handles slightly different URLs from\ndifferent feeds via URL normalization.\n\"\"\"\n\nfrom urllib.parse import urlparse, urlunparse, parse_qs, urlencode\n\n\ndef _normalize_url(url):\n    \"\"\"\n    Normalize a URL for deduplication purposes:\n    - Lowercase scheme and host\n    - Remove trailing slashes from path\n    - Remove common tracking query parameters (utm_*, fbclid, etc.)\n    - Sort remaining query parameters for consistent comparison\n    - Remove fragment\n    \"\"\"\n    try:\n        parsed = urlparse(url.strip())\n    except Exception:\n        return url.strip().lower()\n\n    scheme = parsed.scheme.lower()\n    netloc = parsed.netloc.lower()\n    path = parsed.path.rstrip('/')\n\n    # Remove common tracking/noise query params\n    TRACKING_PARAMS = {\n        'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content',\n        'fbclid', 'gclid', 'msclkid', 'ref', 'source', 'via', 'feed',\n        'from', 'cmpid', 'cmp', 'WT.mc_id', 'mc_cid', 'mc_eid',\n    }\n\n    raw_params = parse_qs(parsed.query, keep_blank_values=False)\n    filtered = {\n        k: v for k, v in raw_params.items()\n        if k.lower() not in {p.lower() for p in TRACKING_PARAMS}\n    }\n    # Sort for stable comparison\n    sorted_query = urlencode(sorted(filtered.items()), doseq=True)\n\n    normalized = urlunparse((scheme, netloc, path, '', sorted_query, ''))\n    return normalized\n\n\ndef dedupe_articles(articles):\n    \"\"\"\n    Remove duplicate articles from a list, keeping the first occurrence.\n    Two articles are considered duplicates if their normalized URLs match.\n    \"\"\"\n    seen = set()\n    result = []\n    for article in articles:\n        url = article.get('url', '')\n        key = _normalize_url(url)\n        if key not in seen:\n            seen.add(key)\n            result.append(article)\n    return result\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "04-dedupe-articles|placebo|1",
+  "task": "04-dedupe-articles",
+  "arm": "placebo",
+  "rep": 1,
+  "solution_code": "from urllib.parse import urlparse, urlunparse, parse_qs, urlencode\n\n\ndef _normalize_url(url: str) -> str:\n    \"\"\"Normalize a URL for deduplication purposes.\"\"\"\n    url = url.strip()\n\n    # Add scheme if missing so urlparse works correctly\n    if not url.startswith((\"http://\", \"https://\")):\n        url = \"https://\" + url\n\n    parsed = urlparse(url)\n\n    # Normalize scheme to https\n    scheme = \"https\"\n\n    # Normalize netloc: lowercase, strip www.\n    netloc = parsed.netloc.lower()\n    if netloc.startswith(\"www.\"):\n        netloc = netloc[4:]\n\n    # Normalize path: strip trailing slash (but keep root \"/\")\n    path = parsed.path.rstrip(\"/\") or \"/\"\n\n    # Drop common tracking/utm query parameters; keep the rest sorted\n    TRACKING_PARAMS = {\n        \"utm_source\", \"utm_medium\", \"utm_campaign\", \"utm_term\", \"utm_content\",\n        \"ref\", \"source\", \"fbclid\", \"gclid\", \"mc_cid\", \"mc_eid\",\n        \"_ga\", \"yclid\",\n    }\n    qs = parse_qs(parsed.query, keep_blank_values=True)\n    filtered_qs = {k: v for k, v in qs.items() if k.lower() not in TRACKING_PARAMS}\n    query = urlencode(sorted(filtered_qs.items()))\n\n    # Drop fragment entirely\n    normalized = urlunparse((scheme, netloc, path, \"\", query, \"\"))\n    return normalized\n\n\ndef dedupe_articles(articles):\n    \"\"\"\n    Remove duplicate articles, keeping the first occurrence.\n\n    Two articles are considered duplicates if their URLs normalize to the\n    same canonical form (same host, path, and non-tracking query params,\n    ignoring scheme differences and www prefix).\n    \"\"\"\n    seen = set()\n    result = []\n    for article in articles:\n        url = article.get(\"url\", \"\")\n        key = _normalize_url(url)\n        if key not in seen:\n            seen.add(key)\n            result.append(article)\n    return result\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "04-dedupe-articles|placebo|2",
+  "task": "04-dedupe-articles",
+  "arm": "placebo",
+  "rep": 2,
+  "solution_code": "from urllib.parse import urlparse, parse_qs, urlencode, urlunparse\n\n\ndef _normalize_url(url: str) -> str:\n    \"\"\"Normalize a URL to a canonical form for deduplication.\"\"\"\n    url = url.strip()\n\n    # Parse the URL\n    parsed = urlparse(url)\n\n    # Normalize scheme: treat http and https as the same (use https)\n    scheme = \"https\" if parsed.scheme.lower() in (\"http\", \"https\") else parsed.scheme.lower()\n\n    # Normalize netloc: lowercase, strip www.\n    netloc = parsed.netloc.lower()\n    if netloc.startswith(\"www.\"):\n        netloc = netloc[4:]\n\n    # Normalize path: remove trailing slash (unless it's just \"/\")\n    path = parsed.path\n    if path != \"/\" and path.endswith(\"/\"):\n        path = path.rstrip(\"/\")\n\n    # Normalize query: sort params, drop tracking params\n    TRACKING_PARAMS = {\n        \"utm_source\", \"utm_medium\", \"utm_campaign\", \"utm_term\", \"utm_content\",\n        \"fbclid\", \"gclid\", \"ref\", \"source\", \"campaign\",\n    }\n    if parsed.query:\n        params = parse_qs(parsed.query, keep_blank_values=True)\n        # Remove tracking params\n        params = {k: v for k, v in params.items() if k.lower() not in TRACKING_PARAMS}\n        # Sort for consistency\n        query = urlencode(sorted(params.items()))\n    else:\n        query = \"\"\n\n    # Rebuild without fragment\n    normalized = urlunparse((scheme, netloc, path, parsed.params, query, \"\"))\n    return normalized\n\n\ndef dedupe_articles(articles):\n    \"\"\"\n    Remove duplicate articles, keeping the first occurrence.\n    Two articles are considered duplicates if their normalized URLs match.\n    \"\"\"\n    seen = set()\n    result = []\n    for article in articles:\n        url = article.get(\"url\", \"\")\n        key = _normalize_url(url)\n        if key not in seen:\n            seen.add(key)\n            result.append(article)\n    return result\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "04-dedupe-articles|sysproof|0",
+  "task": "04-dedupe-articles",
+  "arm": "sysproof",
+  "rep": 0,
+  "solution_code": "from urllib.parse import urlparse, urlunparse, urlencode, parse_qs\n\n\ndef normalize_url(url):\n    \"\"\"Normalize a URL to a canonical form for deduplication.\"\"\"\n    url = url.strip()\n\n    parsed = urlparse(url)\n\n    scheme = parsed.scheme.lower()\n    netloc = parsed.netloc.lower()\n\n    # Remove www. prefix so www.example.com and example.com match\n    if netloc.startswith('www.'):\n        netloc = netloc[4:]\n\n    # Remove trailing slash (unless it's just '/')\n    path = parsed.path\n    if path != '/' and path.endswith('/'):\n        path = path.rstrip('/')\n\n    # Strip common tracking/campaign query params that vary by feed\n    IGNORED_PARAMS = {\n        'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content',\n        'utm_id', 'fbclid', 'gclid', 'ref', 'source', 'origin',\n        'campaign', 'medium', 'referrer', 'via', 'trk',\n    }\n\n    if parsed.query:\n        qs = parse_qs(parsed.query, keep_blank_values=True)\n        qs = {k: v for k, v in qs.items() if k.lower() not in IGNORED_PARAMS}\n        query = urlencode(sorted(qs.items()), doseq=True) if qs else ''\n    else:\n        query = ''\n\n    # Drop fragment \u2014 anchors don't change the story identity\n    normalized = urlunparse((scheme, netloc, path, parsed.params, query, ''))\n    return normalized\n\n\ndef dedupe_articles(articles):\n    \"\"\"\n    Remove duplicate articles from a list, keeping the first occurrence.\n\n    The same story may arrive from different feeds with slightly different URLs\n    (trailing slashes, www prefix, UTM tracking params, etc.).  URLs are\n    normalized before comparing so those cosmetic variations are treated as the\n    same story.\n\n    Args:\n        articles: list of dicts, each containing at least a ``\"url\"`` key.\n\n    Returns:\n        A new list with duplicates removed, preserving the original order of\n        first occurrences.\n    \"\"\"\n    seen = {}\n    result = []\n    for article in articles:\n        url = article.get('url', '')\n        key = normalize_url(url)\n        if key not in seen:\n            seen[key] = True\n            result.append(article)\n    return result\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "04-dedupe-articles|sysproof|1",
+  "task": "04-dedupe-articles",
+  "arm": "sysproof",
+  "rep": 1,
+  "solution_code": "from urllib.parse import urlparse, urlencode, parse_qs, urlunparse\n\n\ndef _normalize_url(url: str) -> str:\n    \"\"\"Normalize a URL to a canonical form for deduplication.\"\"\"\n    url = url.strip()\n\n    # Parse the URL\n    parsed = urlparse(url)\n\n    # Normalize scheme: treat http and https as equivalent (canonical: https)\n    scheme = \"https\"\n\n    # Normalize host to lowercase, strip www.\n    host = parsed.netloc.lower()\n    # Remove default ports\n    if host.endswith(\":80\") or host.endswith(\":443\"):\n        host = host.rsplit(\":\", 1)[0]\n    # Strip leading www.\n    if host.startswith(\"www.\"):\n        host = host[4:]\n\n    # Normalize path: remove trailing slash (unless it's just \"/\")\n    path = parsed.path\n    if path != \"/\" and path.endswith(\"/\"):\n        path = path.rstrip(\"/\")\n\n    # Filter out known tracking query parameters\n    TRACKING_PARAMS = {\n        \"utm_source\", \"utm_medium\", \"utm_campaign\", \"utm_term\", \"utm_content\",\n        \"utm_id\", \"utm_reader\", \"utm_name\",\n        \"fbclid\", \"gclid\", \"msclkid\", \"dclid\",\n        \"ref\", \"source\", \"feed\", \"from\",\n        \"_ga\", \"_gl\",\n    }\n\n    qs = parse_qs(parsed.query, keep_blank_values=False)\n    filtered_qs = {k: v for k, v in qs.items() if k.lower() not in TRACKING_PARAMS}\n    # Sort query params for consistent ordering\n    sorted_qs = urlencode(sorted(filtered_qs.items()), doseq=True)\n\n    # Drop fragment (anchors don't affect content identity)\n    fragment = \"\"\n\n    normalized = urlunparse((scheme, host, path, parsed.params, sorted_qs, fragment))\n    return normalized\n\n\ndef dedupe_articles(articles: list) -> list:\n    \"\"\"\n    Return articles with duplicate stories removed, keeping the first occurrence.\n\n    Articles with the same normalized URL are considered duplicates.\n    Normalization handles: http/https, www prefix, trailing slashes,\n    tracking query parameters, fragments, and case differences.\n    \"\"\"\n    seen = set()\n    result = []\n    for article in articles:\n        url = article.get(\"url\", \"\")\n        key = _normalize_url(url)\n        if key not in seen:\n            seen.add(key)\n            result.append(article)\n    return result\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "04-dedupe-articles|sysproof|2",
+  "task": "04-dedupe-articles",
+  "arm": "sysproof",
+  "rep": 2,
+  "solution_code": "from urllib.parse import urlparse, parse_qs, urlencode, urlunparse\nimport re\n\n\n_TRACKING_PARAMS = {\n    \"utm_source\", \"utm_medium\", \"utm_campaign\", \"utm_term\", \"utm_content\",\n    \"fbclid\", \"gclid\", \"msclkid\", \"ref\", \"referrer\", \"source\", \"campaign\",\n    \"mc_cid\", \"mc_eid\", \"_ga\", \"yclid\", \"igshid\",\n}\n\n\ndef _normalize_url(url) -> str:\n    \"\"\"\n    Normalize a URL to a canonical form for deduplication.\n\n    Handles:\n    - None / missing url  -> empty string (all missing-url articles share one key)\n    - scheme case + http/https treated as equivalent\n    - www. prefix removed\n    - trailing slash removed\n    - URL fragment removed (client-side only)\n    - common tracking query parameters stripped\n    - query parameter order normalized\n    - overall case folded to lowercase\n    \"\"\"\n    if url is None:\n        return ''\n    url = str(url).strip()\n    if not url:\n        return ''\n\n    try:\n        parsed = urlparse(url)\n    except Exception:\n        return url.lower()\n\n    # Treat http and https as the same story\n    scheme = parsed.scheme.lower()\n    if scheme in ('http', 'https'):\n        scheme = 'https'\n\n    # Lowercase host, strip www.\n    netloc = parsed.netloc.lower()\n    netloc = re.sub(r'^www\\.', '', netloc)\n\n    # Remove trailing slash from path (keep root \"/\" as-is)\n    path = parsed.path\n    if path != '/' and path.endswith('/'):\n        path = path.rstrip('/')\n\n    # Strip tracking params; sort remaining for stable key\n    if parsed.query:\n        qs = parse_qs(parsed.query, keep_blank_values=True)\n        qs_clean = {k: v for k, v in qs.items() if k.lower() not in _TRACKING_PARAMS}\n        query = urlencode(sorted(qs_clean.items()))\n    else:\n        query = ''\n\n    # Drop fragment\n    normalized = urlunparse((scheme, netloc, path, parsed.params, query, ''))\n    return normalized.lower()\n\n\ndef dedupe_articles(articles):\n    \"\"\"\n    Return articles with duplicates removed, keeping the first occurrence.\n\n    Two articles are considered duplicates when their normalized URLs match.\n    Normalization handles minor URL variations that commonly appear when the\n    same story arrives from different feeds (www prefix, trailing slash,\n    http/https, UTM tracking parameters, URL fragments).\n    \"\"\"\n    seen = set()\n    result = []\n    for article in articles:\n        url = article.get('url')\n        key = _normalize_url(url)\n        if key not in seen:\n            seen.add(key)\n            result.append(article)\n    return result\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "05-slugify|control|0",
+  "task": "05-slugify",
+  "arm": "control",
+  "rep": 0,
+  "solution_code": "import re\nimport unicodedata\n\n\ndef slugify(title):\n    \"\"\"\n    Convert a title to a lowercase, hyphen-separated URL slug.\n    Collapses runs of separators and trims leading/trailing hyphens.\n    \"\"\"\n    # Normalize unicode characters (e.g., accented chars -> ASCII equivalents)\n    value = unicodedata.normalize(\"NFKD\", str(title))\n    value = value.encode(\"ascii\", \"ignore\").decode(\"ascii\")\n\n    # Lowercase\n    value = value.lower()\n\n    # Replace any non-alphanumeric characters (except hyphens) with hyphens\n    value = re.sub(r\"[^a-z0-9]+\", \"-\", value)\n\n    # Trim leading and trailing hyphens\n    value = value.strip(\"-\")\n\n    return value\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "05-slugify|control|1",
+  "task": "05-slugify",
+  "arm": "control",
+  "rep": 1,
+  "solution_code": "import re\nimport unicodedata\n\n\ndef slugify(title):\n    \"\"\"Return a lowercase, hyphen-separated slug suitable for use in a URL.\n\n    Collapses runs of separators and trims any leading or trailing hyphens.\n    \"\"\"\n    # Normalize unicode characters to ASCII equivalents where possible\n    value = unicodedata.normalize('NFKD', title)\n    value = value.encode('ascii', 'ignore').decode('ascii')\n\n    # Convert to lowercase\n    value = value.lower()\n\n    # Replace any non-alphanumeric character (except hyphens) with a hyphen\n    value = re.sub(r'[^a-z0-9]+', '-', value)\n\n    # Strip leading and trailing hyphens\n    value = value.strip('-')\n\n    return value\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "05-slugify|control|2",
+  "task": "05-slugify",
+  "arm": "control",
+  "rep": 2,
+  "solution_code": "import re\nimport unicodedata\n\n\ndef slugify(title):\n    # Normalize unicode characters to ASCII\n    value = unicodedata.normalize('NFKD', title)\n    value = value.encode('ascii', 'ignore').decode('ascii')\n    # Lowercase\n    value = value.lower()\n    # Replace non-alphanumeric characters (except hyphens) with hyphens\n    value = re.sub(r'[^\\w\\s-]', '', value)\n    # Replace whitespace and underscores with hyphens\n    value = re.sub(r'[\\s_]+', '-', value)\n    # Collapse runs of hyphens\n    value = re.sub(r'-+', '-', value)\n    # Trim leading and trailing hyphens\n    value = value.strip('-')\n    return value\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "05-slugify|placebo|0",
+  "task": "05-slugify",
+  "arm": "placebo",
+  "rep": 0,
+  "solution_code": "import re\nimport unicodedata\n\n\ndef slugify(title):\n    \"\"\"\n    Convert an article title into a lowercase, hyphen-separated URL slug.\n    Collapses runs of separators and trims leading/trailing hyphens.\n    \"\"\"\n    # Normalize unicode characters (NFKD decomposition)\n    value = unicodedata.normalize(\"NFKD\", title)\n    # Encode to ASCII bytes, ignoring non-ASCII, then decode back\n    value = value.encode(\"ascii\", \"ignore\").decode(\"ascii\")\n    # Lowercase\n    value = value.lower()\n    # Replace any non-alphanumeric characters with hyphens\n    value = re.sub(r\"[^a-z0-9]+\", \"-\", value)\n    # Strip leading/trailing hyphens\n    value = value.strip(\"-\")\n    return value\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "05-slugify|placebo|1",
+  "task": "05-slugify",
+  "arm": "placebo",
+  "rep": 1,
+  "solution_code": "import re\nimport unicodedata\n\n\ndef slugify(title: str) -> str:\n    \"\"\"Return a lowercase, hyphen-separated slug suitable for use in a URL.\n\n    Steps:\n    1. Normalize unicode characters (NFKD) and encode to ASCII, dropping\n       characters that can't be represented.\n    2. Lowercase.\n    3. Replace any character that is not alphanumeric with a hyphen,\n       collapsing runs of non-alphanumeric characters into a single hyphen.\n    4. Strip leading/trailing hyphens.\n    \"\"\"\n    # Normalize unicode to ASCII, drop non-ASCII\n    normalized = unicodedata.normalize(\"NFKD\", title)\n    ascii_text = normalized.encode(\"ascii\", \"ignore\").decode(\"ascii\")\n\n    # Lowercase\n    lowered = ascii_text.lower()\n\n    # Replace non-alphanumeric characters with hyphens (collapses runs too)\n    replaced = re.sub(r\"[^a-z0-9]+\", \"-\", lowered)\n\n    # Strip leading/trailing hyphens\n    stripped = replaced.strip(\"-\")\n\n    return stripped\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "05-slugify|placebo|2",
+  "task": "05-slugify",
+  "arm": "placebo",
+  "rep": 2,
+  "solution_code": "import re\nimport unicodedata\n\n\ndef slugify(title: str) -> str:\n    \"\"\"Return a lowercase, hyphen-separated slug suitable for use in a URL.\n\n    Steps:\n    1. Normalize unicode to ASCII (NFKD then encode/decode to strip accents).\n    2. Lowercase.\n    3. Replace any character that is not alphanumeric or a hyphen with a hyphen.\n    4. Collapse runs of hyphens into a single hyphen.\n    5. Strip leading and trailing hyphens.\n    \"\"\"\n    # Normalize unicode characters to their closest ASCII equivalent\n    normalized = unicodedata.normalize(\"NFKD\", title)\n    ascii_text = normalized.encode(\"ascii\", \"ignore\").decode(\"ascii\")\n\n    # Lowercase\n    lower = ascii_text.lower()\n\n    # Replace non-alphanumeric characters with hyphens (also collapses runs)\n    replaced = re.sub(r\"[^a-z0-9]+\", \"-\", lower)\n\n    # Strip leading/trailing hyphens\n    slug = replaced.strip(\"-\")\n\n    return slug\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "05-slugify|sysproof|0",
+  "task": "05-slugify",
+  "arm": "sysproof",
+  "rep": 0,
+  "solution_code": "import re\n\n\ndef slugify(title: str) -> str:\n    \"\"\"Convert an article title into a lowercase, hyphen-separated URL slug.\"\"\"\n    # Lowercase\n    slug = title.lower()\n    # Replace any non-alphanumeric characters (separators, punctuation, whitespace) with hyphens\n    slug = re.sub(r'[^a-z0-9]+', '-', slug)\n    # Strip leading and trailing hyphens\n    slug = slug.strip('-')\n    return slug\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "05-slugify|sysproof|1",
+  "task": "05-slugify",
+  "arm": "sysproof",
+  "rep": 1,
+  "solution_code": "import re\n\n\ndef slugify(title):\n    \"\"\"Convert an article title to a lowercase, hyphen-separated URL slug.\n\n    Collapses runs of separators and trims leading/trailing hyphens.\n    \"\"\"\n    slug = title.lower()\n    slug = re.sub(r'[^a-z0-9]+', '-', slug)\n    slug = slug.strip('-')\n    return slug\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "05-slugify|sysproof|2",
+  "task": "05-slugify",
+  "arm": "sysproof",
+  "rep": 2,
+  "solution_code": "import re\nimport unicodedata\n\n\ndef slugify(title: str) -> str:\n    \"\"\"\n    Convert an article title to a URL-friendly slug.\n\n    - Lowercase\n    - Non-alphanumeric characters replaced with hyphens\n    - Runs of separators collapsed to a single hyphen\n    - Leading and trailing hyphens trimmed\n    \"\"\"\n    # Normalize unicode characters (e.g. accented letters -> base letters)\n    normalized = unicodedata.normalize(\"NFKD\", title)\n    # Encode to ASCII, ignoring characters that can't be converted\n    ascii_str = normalized.encode(\"ascii\", \"ignore\").decode(\"ascii\")\n    # Lowercase\n    lower = ascii_str.lower()\n    # Replace any non-alphanumeric character with a hyphen\n    hyphenated = re.sub(r\"[^a-z0-9]+\", \"-\", lower)\n    # Trim leading/trailing hyphens\n    slug = hyphenated.strip(\"-\")\n    return slug\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "06-summarize-budget|control|0",
+  "task": "06-summarize-budget",
+  "arm": "control",
+  "rep": 0,
+  "solution_code": "def fit_to_budget(text, budget=280):\n    if len(text) <= budget:\n        return text\n    # Truncate at a word boundary\n    truncated = text[:budget]\n    # Find the last space within the budget\n    last_space = truncated.rfind(' ')\n    if last_space == -1:\n        # No space found; single word longer than budget, must hard-cut\n        return truncated\n    return truncated[:last_space]\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "06-summarize-budget|control|1",
+  "task": "06-summarize-budget",
+  "arm": "control",
+  "rep": 1,
+  "solution_code": "def fit_to_budget(text, budget=280):\n    if len(text) <= budget:\n        return text\n    # Truncate at budget characters, then back up to the last space\n    truncated = text[:budget]\n    last_space = truncated.rfind(' ')\n    if last_space == -1:\n        # No space found; can't avoid cutting a word \u2014 return hard truncation\n        return truncated\n    return truncated[:last_space]\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "06-summarize-budget|control|2",
+  "task": "06-summarize-budget",
+  "arm": "control",
+  "rep": 2,
+  "solution_code": "def fit_to_budget(text, budget=280):\n    \"\"\"Return text shortened to fit within budget characters without cutting a word in half.\"\"\"\n    if len(text) <= budget:\n        return text\n    truncated = text[:budget]\n    last_space = truncated.rfind(' ')\n    if last_space == -1:\n        # No space within budget; no choice but to truncate mid-word.\n        return truncated\n    return truncated[:last_space]\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "06-summarize-budget|placebo|0",
+  "task": "06-summarize-budget",
+  "arm": "placebo",
+  "rep": 0,
+  "solution_code": "def fit_to_budget(text, budget=280):\n    \"\"\"Shorten text to fit within budget characters without cutting a word in half.\"\"\"\n    if len(text) <= budget:\n        return text\n\n    # Truncate to budget characters, then cut back to last complete word\n    truncated = text[:budget]\n\n    # Find the last space to avoid cutting a word in half\n    last_space = truncated.rfind(' ')\n\n    if last_space == -1:\n        # No space found - single word longer than budget, must cut it\n        return truncated\n\n    return truncated[:last_space]\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "06-summarize-budget|placebo|1",
+  "task": "06-summarize-budget",
+  "arm": "placebo",
+  "rep": 1,
+  "solution_code": "def fit_to_budget(text, budget=280):\n    \"\"\"Shorten text to fit within budget characters without cutting a word in half.\n\n    If the text already fits within the budget, it is returned unchanged.\n    Otherwise, the text is truncated at the last complete word boundary that\n    keeps the result within the budget. If no complete word fits, returns an\n    empty string.\n    \"\"\"\n    if len(text) <= budget:\n        return text\n\n    truncated = text[:budget]\n\n    # Check whether the truncation landed inside a word\n    if text[budget] != ' ':\n        # We cut mid-word; walk back to the last space\n        last_space = truncated.rfind(' ')\n        if last_space == -1:\n            # The entire budget is one partial word; nothing complete fits\n            return ''\n        return truncated[:last_space]\n    else:\n        # The truncation landed exactly on a space; strip any trailing spaces\n        return truncated.rstrip()\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "06-summarize-budget|placebo|2",
+  "task": "06-summarize-budget",
+  "arm": "placebo",
+  "rep": 2,
+  "solution_code": "def fit_to_budget(text, budget=280):\n    \"\"\"Shorten text so it fits within budget characters without cutting a word in half.\"\"\"\n    if len(text) <= budget:\n        return text\n\n    truncated = text[:budget]\n\n    if text[budget] != ' ':\n        last_space = truncated.rfind(' ')\n        if last_space == -1:\n            return ''\n        truncated = truncated[:last_space]\n    else:\n        truncated = truncated.rstrip(' ')\n\n    return truncated\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "06-summarize-budget|sysproof|0",
+  "task": "06-summarize-budget",
+  "arm": "sysproof",
+  "rep": 0,
+  "solution_code": "def fit_to_budget(text, budget=280):\n    if len(text) <= budget:\n        return text\n    # We need to cut at or before `budget` without splitting a word.\n    truncated = text[:budget]\n    # If the character right after the cut is a space, no word was split.\n    if budget < len(text) and text[budget] == ' ':\n        return truncated\n    # Otherwise find the last space in the truncated string to avoid cutting a word.\n    last_space = truncated.rfind(' ')\n    if last_space == -1:\n        # No spaces; the whole truncated string is one word, return it as-is.\n        return truncated\n    return truncated[:last_space]\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "06-summarize-budget|sysproof|1",
+  "task": "06-summarize-budget",
+  "arm": "sysproof",
+  "rep": 1,
+  "solution_code": "def fit_to_budget(text, budget=280):\n    if len(text) <= budget:\n        return text\n    # Truncate to budget characters first.\n    truncated = text[:budget]\n    # If the character right after the cut is a space, no word was split.\n    if budget < len(text) and text[budget] == ' ':\n        return truncated\n    # Otherwise find the last space in the truncated string to avoid splitting a word.\n    last_space = truncated.rfind(' ')\n    if last_space == -1:\n        # No spaces found; the whole truncated string is one long word, return it as-is.\n        return truncated\n    return truncated[:last_space]\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "06-summarize-budget|sysproof|2",
+  "task": "06-summarize-budget",
+  "arm": "sysproof",
+  "rep": 2,
+  "solution_code": "def fit_to_budget(text, budget=280):\n    \"\"\"Shorten text to fit within budget characters without cutting a word in half.\n\n    If the text already fits within budget, return it unchanged.\n    Otherwise, truncate at the last word boundary at or before budget characters.\n    \"\"\"\n    if len(text) <= budget:\n        return text\n\n    # text[budget] exists because len(text) > budget\n    # If the character at position budget is a space, text[:budget] ends a complete word\n    if text[budget] == ' ':\n        return text[:budget]\n\n    # text[:budget] would end in the middle of a word; find the last space before it\n    truncated = text[:budget]\n    last_space = truncated.rfind(' ')\n\n    if last_space == -1:\n        # No word boundary found: single token longer than budget\n        return ''\n\n    return text[:last_space]\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "07-rank-by-recency|control|0",
+  "task": "07-rank-by-recency",
+  "arm": "control",
+  "rep": 0,
+  "solution_code": "def rank_by_recency(articles):\n    return sorted(articles, key=lambda a: a.get(\"ts\", float(\"-inf\")), reverse=True)\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "07-rank-by-recency|control|1",
+  "task": "07-rank-by-recency",
+  "arm": "control",
+  "rep": 1,
+  "solution_code": "def rank_by_recency(articles):\n    return sorted(articles, key=lambda a: a.get(\"ts\", float(\"-inf\")), reverse=True)\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "07-rank-by-recency|control|2",
+  "task": "07-rank-by-recency",
+  "arm": "control",
+  "rep": 2,
+  "solution_code": "def rank_by_recency(articles):\n    \"\"\"Return articles sorted newest first by 'ts' field (Unix timestamp integer).\n    Articles missing 'ts' are placed at the end.\"\"\"\n    return sorted(\n        articles,\n        key=lambda a: (a.get(\"ts\") is not None, a.get(\"ts\") if a.get(\"ts\") is not None else 0),\n        reverse=True,\n    )\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "07-rank-by-recency|placebo|0",
+  "task": "07-rank-by-recency",
+  "arm": "placebo",
+  "rep": 0,
+  "solution_code": "def rank_by_recency(articles):\n    \"\"\"Returns articles sorted newest first by their 'ts' field (Unix timestamp integer).\n    Articles missing a timestamp are placed at the end.\"\"\"\n    return sorted(articles, key=lambda a: a.get(\"ts\", float(\"-inf\")), reverse=True)\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "07-rank-by-recency|placebo|1",
+  "task": "07-rank-by-recency",
+  "arm": "placebo",
+  "rep": 1,
+  "solution_code": "def rank_by_recency(articles):\n    \"\"\"Return articles sorted newest first by their 'ts' field.\n    Articles missing a timestamp are placed at the end.\"\"\"\n    return sorted(articles, key=lambda a: a.get(\"ts\", float(\"-inf\")), reverse=True)\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "07-rank-by-recency|placebo|2",
+  "task": "07-rank-by-recency",
+  "arm": "placebo",
+  "rep": 2,
+  "solution_code": "def rank_by_recency(articles):\n    \"\"\"Sort articles newest first by their 'ts' field (Unix timestamp integer).\n    Articles missing a timestamp are sorted to the end.\"\"\"\n    return sorted(articles, key=lambda a: a.get(\"ts\", float(\"-inf\")), reverse=True)\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "07-rank-by-recency|sysproof|0",
+  "task": "07-rank-by-recency",
+  "arm": "sysproof",
+  "rep": 0,
+  "solution_code": "def rank_by_recency(articles):\n    return sorted(\n        articles,\n        key=lambda a: a.get(\"ts\") if a.get(\"ts\") is not None else float(\"-inf\"),\n        reverse=True,\n    )\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "07-rank-by-recency|sysproof|1",
+  "task": "07-rank-by-recency",
+  "arm": "sysproof",
+  "rep": 1,
+  "solution_code": "def rank_by_recency(articles):\n    return sorted(articles, key=lambda a: a.get(\"ts\", 0) or 0, reverse=True)\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "07-rank-by-recency|sysproof|2",
+  "task": "07-rank-by-recency",
+  "arm": "sysproof",
+  "rep": 2,
+  "solution_code": "def rank_by_recency(articles):\n    \"\"\"Return articles sorted newest first by 'ts' (Unix timestamp).\n    Articles missing 'ts' are placed at the end.\"\"\"\n    return sorted(\n        articles,\n        key=lambda a: a.get(\"ts\") if a.get(\"ts\") is not None else float(\"-inf\"),\n        reverse=True,\n    )\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "08-extract-domain|control|0",
+  "task": "08-extract-domain",
+  "arm": "control",
+  "rep": 0,
+  "solution_code": "import re\nfrom urllib.parse import urlparse\n\n\ndef extract_domain(url: str) -> str:\n    \"\"\"\n    Extract the registrable (base) domain from a URL.\n    Strips scheme, userinfo, port, path, query, and subdomains.\n    Returns lowercased result.\n    \"\"\"\n    # Parse the URL to get the netloc/hostname\n    parsed = urlparse(url)\n    hostname = parsed.hostname  # returns lowercase, strips port and userinfo\n\n    if not hostname:\n        # Maybe it was passed without a scheme - try adding one\n        parsed = urlparse(\"http://\" + url)\n        hostname = parsed.hostname\n\n    if not hostname:\n        return url.lower()\n\n    # If hostname is an IPv4 address, return it as-is\n    if re.match(r'^\\d+\\.\\d+\\.\\d+\\.\\d+$', hostname):\n        return hostname\n\n    parts = hostname.split(\".\")\n\n    # Known multi-part TLDs (second-level TLDs)\n    MULTI_TLDS = {\n        \"co.uk\", \"co.nz\", \"co.jp\", \"co.za\", \"co.in\", \"co.kr\",\n        \"com.au\", \"com.br\", \"com.cn\", \"com.mx\", \"com.ar\", \"com.sg\",\n        \"org.uk\", \"net.uk\", \"gov.uk\", \"ac.uk\", \"me.uk\",\n        \"gov.au\", \"net.au\", \"org.au\",\n        \"ne.jp\", \"or.jp\", \"ac.jp\", \"ad.jp\", \"ed.jp\", \"go.jp\",\n        \"or.kr\", \"pe.kr\",\n    }\n\n    if len(parts) >= 3:\n        # Check if last two parts form a known multi-part TLD\n        potential_tld = \".\".join(parts[-2:])\n        if potential_tld in MULTI_TLDS:\n            # Keep last 3 parts: domain + 2-part TLD\n            return \".\".join(parts[-3:])\n\n    # Default: keep last 2 parts\n    if len(parts) >= 2:\n        return \".\".join(parts[-2:])\n\n    return hostname\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "08-extract-domain|control|1",
+  "task": "08-extract-domain",
+  "arm": "control",
+  "rep": 1,
+  "solution_code": "from urllib.parse import urlparse\n\n# Common multi-part TLDs (public suffix list subset)\n# These are TLDs that have more than one component\nMULTI_PART_TLDS = {\n    # UK\n    \"co.uk\", \"org.uk\", \"me.uk\", \"net.uk\", \"ltd.uk\", \"plc.uk\", \"gov.uk\", \"sch.uk\",\n    # Australia\n    \"com.au\", \"net.au\", \"org.au\", \"edu.au\", \"gov.au\", \"asn.au\", \"id.au\",\n    # Other common ones\n    \"co.nz\", \"org.nz\", \"net.nz\", \"gov.nz\",\n    \"co.jp\", \"or.jp\", \"ne.jp\", \"go.jp\",\n    \"co.in\", \"net.in\", \"org.in\", \"gov.in\",\n    \"co.za\", \"org.za\", \"net.za\",\n    \"co.kr\", \"or.kr\", \"ne.kr\",\n    \"com.br\", \"net.br\", \"org.br\", \"gov.br\",\n    \"com.mx\", \"net.mx\", \"org.mx\",\n    \"com.ar\", \"net.ar\", \"org.ar\",\n    \"com.cn\", \"net.cn\", \"org.cn\", \"gov.cn\",\n    \"com.sg\", \"net.sg\", \"org.sg\",\n    \"com.hk\", \"net.hk\", \"org.hk\",\n    \"com.tw\", \"net.tw\", \"org.tw\",\n    \"com.de\", \"com.fr\",\n    \"co.il\", \"org.il\", \"net.il\",\n    \"co.ke\", \"or.ke\",\n    \"co.tz\", \"or.tz\",\n    \"co.ug\", \"or.ug\",\n    \"co.zw\", \"org.zw\",\n    \"com.ng\", \"org.ng\", \"net.ng\",\n    \"com.gh\", \"org.gh\",\n    \"com.pk\", \"net.pk\", \"org.pk\",\n}\n\n\ndef extract_domain(url: str) -> str:\n    \"\"\"Return the registrable (base) domain from a URL, lowercased.\n\n    Strips the scheme, any userinfo and port, the path and query, and any\n    subdomains, returning only the registrable domain lowercased.\n    \"\"\"\n    # Parse the URL to get the hostname\n    parsed = urlparse(url)\n    hostname = parsed.hostname or \"\"\n\n    # If parsing didn't work well (e.g., URL without scheme), try adding a scheme\n    if not hostname and url:\n        try:\n            parsed = urlparse(\"http://\" + url)\n            hostname = parsed.hostname or \"\"\n        except Exception:\n            hostname = \"\"\n\n    hostname = hostname.lower()\n\n    parts = hostname.split(\".\")\n\n    if len(parts) < 2:\n        return hostname\n\n    # Check if last two parts form a known multi-part TLD\n    if len(parts) >= 3:\n        possible_two_part_tld = \".\".join(parts[-2:])\n        if possible_two_part_tld in MULTI_PART_TLDS:\n            # Registrable domain = last 3 parts\n            return \".\".join(parts[-3:])\n\n    # Default: registrable domain = last 2 parts\n    return \".\".join(parts[-2:])\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "08-extract-domain|control|2",
+  "task": "08-extract-domain",
+  "arm": "control",
+  "rep": 2,
+  "solution_code": "from urllib.parse import urlparse\n\n\ndef extract_domain(url: str) -> str:\n    \"\"\"\n    Extract the registrable (base) domain from a URL.\n    Strips scheme, userinfo, port, path, query, and subdomains.\n    Returns the result lowercased.\n    \"\"\"\n    # Normalize and parse; prepend scheme if missing so urlparse handles it correctly\n    url_lower = url.lower()\n    if not (url_lower.startswith(\"http://\") or url_lower.startswith(\"https://\")\n            or url_lower.startswith(\"ftp://\") or url_lower.startswith(\"ftps://\")\n            or url_lower.startswith(\"//\")):\n        url = \"http://\" + url\n\n    parsed = urlparse(url)\n    hostname = (parsed.hostname or \"\").lower()\n\n    # Split by dot and get the last two parts (SLD + TLD)\n    parts = [p for p in hostname.split(\".\") if p]\n\n    if len(parts) >= 2:\n        return \".\".join(parts[-2:])\n\n    return hostname\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "08-extract-domain|placebo|0",
+  "task": "08-extract-domain",
+  "arm": "placebo",
+  "rep": 0,
+  "solution_code": "from urllib.parse import urlparse\n\n# Subset of the public suffix list covering common multi-part TLDs\nMULTI_PART_TLDS = {\n    # United Kingdom\n    \"co.uk\", \"org.uk\", \"me.uk\", \"net.uk\", \"ltd.uk\", \"plc.uk\", \"gov.uk\", \"sch.uk\",\n    # Australia\n    \"com.au\", \"net.au\", \"org.au\", \"edu.au\", \"gov.au\", \"asn.au\", \"id.au\",\n    # New Zealand\n    \"co.nz\", \"org.nz\", \"net.nz\", \"gov.nz\",\n    # Japan\n    \"co.jp\", \"or.jp\", \"ne.jp\", \"go.jp\",\n    # India\n    \"co.in\", \"net.in\", \"org.in\", \"gov.in\",\n    # South Africa\n    \"co.za\", \"org.za\", \"net.za\",\n    # South Korea\n    \"co.kr\", \"or.kr\", \"ne.kr\",\n    # Brazil\n    \"com.br\", \"net.br\", \"org.br\", \"gov.br\",\n    # Mexico\n    \"com.mx\", \"net.mx\", \"org.mx\",\n    # Argentina\n    \"com.ar\", \"net.ar\", \"org.ar\",\n    # China\n    \"com.cn\", \"net.cn\", \"org.cn\", \"gov.cn\",\n    # Singapore\n    \"com.sg\", \"net.sg\", \"org.sg\",\n    # Hong Kong\n    \"com.hk\", \"net.hk\", \"org.hk\",\n    # Taiwan\n    \"com.tw\", \"net.tw\", \"org.tw\",\n    # Israel\n    \"co.il\", \"org.il\", \"net.il\",\n    # Kenya\n    \"co.ke\", \"or.ke\",\n    # Tanzania\n    \"co.tz\", \"or.tz\",\n    # Uganda\n    \"co.ug\", \"or.ug\",\n    # Zimbabwe\n    \"co.zw\", \"org.zw\",\n    # Nigeria\n    \"com.ng\", \"org.ng\", \"net.ng\",\n    # Ghana\n    \"com.gh\", \"org.gh\",\n    # Pakistan\n    \"com.pk\", \"net.pk\", \"org.pk\",\n}\n\n\ndef extract_domain(url: str) -> str:\n    \"\"\"Return the registrable (base) domain from a URL, lowercased.\n\n    Strips the scheme, userinfo, port, path, query, and any subdomains,\n    returning only the registrable domain (e.g. 'example.com' or 'bbc.co.uk').\n    \"\"\"\n    parsed = urlparse(url)\n    hostname = parsed.hostname or \"\"\n\n    # Handle scheme-less URLs like 'example.com/path'\n    if not hostname and url:\n        try:\n            parsed = urlparse(\"http://\" + url)\n            hostname = parsed.hostname or \"\"\n        except Exception:\n            hostname = \"\"\n\n    hostname = hostname.lower()\n    parts = hostname.split(\".\")\n\n    if len(parts) < 2:\n        # Single label (e.g. 'localhost') \u2014 return as-is\n        return hostname\n\n    # If the last two labels form a known multi-part TLD, the registrable\n    # domain is the last three labels (e.g. 'bbc.co.uk').\n    if len(parts) >= 3:\n        candidate_tld = \".\".join(parts[-2:])\n        if candidate_tld in MULTI_PART_TLDS:\n            return \".\".join(parts[-3:])\n\n    # Default: registrable domain is the last two labels (e.g. 'example.com').\n    return \".\".join(parts[-2:])\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "08-extract-domain|placebo|1",
+  "task": "08-extract-domain",
+  "arm": "placebo",
+  "rep": 1,
+  "solution_code": "from urllib.parse import urlparse\n\n\ndef extract_domain(url: str) -> str:\n    \"\"\"Return the registrable (base) domain from a URL, lowercased.\"\"\"\n    # Parse the URL; if no scheme, add a dummy one so urlparse works\n    if \"://\" not in url:\n        parsed = urlparse(\"http://\" + url)\n    else:\n        parsed = urlparse(url)\n\n    # Get the hostname (strips port and userinfo, lowercases)\n    hostname = parsed.hostname or \"\"\n\n    # Strip subdomains: keep only the last two labels (registrable domain)\n    parts = hostname.split(\".\")\n    if len(parts) > 2:\n        # Handle known two-part TLDs like co.uk, com.au, etc.\n        two_part_tlds = {\n            \"co.uk\", \"co.jp\", \"co.nz\", \"co.za\", \"co.in\", \"co.kr\",\n            \"com.au\", \"com.br\", \"com.cn\", \"com.mx\", \"com.ar\", \"com.sg\",\n            \"org.uk\", \"net.au\", \"gov.uk\", \"gov.au\", \"ac.uk\", \"edu.au\",\n        }\n        last_two = \".\".join(parts[-2:])\n        if last_two in two_part_tlds:\n            # registrable domain = label + two-part TLD\n            return \".\".join(parts[-3:]) if len(parts) >= 3 else hostname\n        else:\n            return \".\".join(parts[-2:])\n\n    return hostname\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "08-extract-domain|placebo|2",
+  "task": "08-extract-domain",
+  "arm": "placebo",
+  "rep": 2,
+  "solution_code": "\"\"\"\nextract_domain: returns the registrable (base) domain from a URL.\nStrips scheme, userinfo, port, path, query, fragment, and subdomains.\nReturns result lowercased.\n\"\"\"\n\nimport re\nfrom urllib.parse import urlparse\n\n\ndef _is_ip_address(hostname: str) -> bool:\n    \"\"\"Return True if hostname is an IPv4 or IPv6 address.\"\"\"\n    ipv4_pattern = re.compile(r\"^(\\d{1,3}\\.){3}\\d{1,3}$\")\n    if ipv4_pattern.match(hostname):\n        return True\n    if \":\" in hostname:\n        return True\n    return False\n\n\ndef extract_domain(url: str) -> str:\n    \"\"\"Return the registrable (base) domain from a URL.\n\n    Strips the scheme, any userinfo and port, the path and query,\n    and any subdomains. Returns the result lowercased.\n    \"\"\"\n    if \"://\" not in url:\n        url = \"http://\" + url\n\n    parsed = urlparse(url)\n    hostname = parsed.hostname or \"\"\n    hostname = hostname.lower()\n\n    if hostname.endswith(\".\"):\n        hostname = hostname[:-1]\n\n    if _is_ip_address(hostname):\n        return hostname\n\n    parts = hostname.split(\".\")\n\n    MULTI_PART_TLDS = {\n        \"co.uk\", \"org.uk\", \"me.uk\", \"net.uk\", \"ltd.uk\", \"plc.uk\",\n        \"co.au\", \"com.au\", \"net.au\", \"org.au\", \"edu.au\", \"gov.au\",\n        \"co.nz\", \"com.nz\", \"net.nz\", \"org.nz\",\n        \"co.in\", \"com.in\", \"net.in\", \"org.in\", \"gov.in\",\n        \"co.jp\", \"com.jp\", \"ne.jp\", \"or.jp\", \"go.jp\",\n        \"co.za\", \"org.za\", \"net.za\",\n        \"co.ke\", \"or.ke\",\n        \"co.il\", \"org.il\",\n        \"co.kr\", \"or.kr\",\n        \"com.br\", \"net.br\", \"org.br\", \"gov.br\",\n        \"com.mx\", \"net.mx\", \"org.mx\",\n        \"com.ar\", \"net.ar\", \"org.ar\",\n        \"com.cn\", \"net.cn\", \"org.cn\", \"gov.cn\",\n        \"com.sg\", \"net.sg\", \"org.sg\", \"gov.sg\",\n        \"com.hk\", \"net.hk\", \"org.hk\",\n        \"com.tw\", \"net.tw\", \"org.tw\",\n        \"com.tr\", \"net.tr\", \"org.tr\",\n        \"com.my\", \"net.my\", \"org.my\",\n        \"com.ph\", \"net.ph\", \"org.ph\",\n        \"com.pk\", \"net.pk\", \"org.pk\",\n        \"com.ng\", \"net.ng\", \"org.ng\",\n        \"ac.uk\", \"gov.uk\",\n        \"ac.nz\", \"ac.in\", \"ac.jp\", \"ac.za\",\n    }\n\n    if len(parts) >= 3:\n        potential_tld = \".\".join(parts[-2:])\n        if potential_tld in MULTI_PART_TLDS:\n            return \".\".join(parts[-3:])\n\n    if len(parts) >= 2:\n        return \".\".join(parts[-2:])\n\n    return hostname\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "08-extract-domain|sysproof|0",
+  "task": "08-extract-domain",
+  "arm": "sysproof",
+  "rep": 0,
+  "solution_code": "\"\"\"\nextract_domain: returns the registrable (base) domain from a URL.\n\"\"\"\nimport re\nfrom urllib.parse import urlparse\n\ntry:\n    import tldextract as _tldextract\n    _HAS_TLDEXTRACT = True\nexcept ImportError:\n    _HAS_TLDEXTRACT = False\n\n\n# Known multi-part TLDs for the fallback path (non-exhaustive but covers common cases)\n_MULTI_PART_TLDS = {\n    \"co.uk\", \"co.in\", \"co.jp\", \"co.nz\", \"co.za\", \"co.kr\", \"co.id\",\n    \"co.il\", \"co.th\", \"co.tz\", \"co.ug\", \"co.ke\",\n    \"com.au\", \"com.br\", \"com.cn\", \"com.mx\", \"com.sg\", \"com.tw\", \"com.hk\",\n    \"com.ar\", \"com.pe\", \"com.co\", \"com.ng\", \"com.ph\",\n    \"org.uk\", \"net.uk\", \"me.uk\", \"ltd.uk\", \"plc.uk\",\n    \"org.au\", \"net.au\", \"id.au\", \"gov.au\",\n    \"ac.uk\", \"gov.uk\", \"sch.uk\",\n    \"ne.jp\", \"ac.jp\", \"go.jp\", \"or.jp\",\n}\n\n\ndef _fallback_extract(hostname: str) -> str:\n    \"\"\"Fallback when tldextract is unavailable. Handles common multi-part TLDs.\"\"\"\n    parts = hostname.split(\".\")\n    if len(parts) <= 2:\n        return hostname\n    # Check if last two parts form a known multi-part TLD\n    candidate_tld = \".\".join(parts[-2:])\n    if candidate_tld in _MULTI_PART_TLDS and len(parts) >= 3:\n        # registrable = last 3 parts\n        return \".\".join(parts[-3:])\n    # Default: last 2 parts\n    return \".\".join(parts[-2:])\n\n\ndef extract_domain(url: str) -> str:\n    \"\"\"\n    Return the registrable (base) domain from a URL.\n\n    Strips scheme, userinfo, port, path, query, fragment, and any subdomains.\n    Returns the result lowercased.\n\n    Examples:\n        extract_domain(\"https://www.example.com/path\") -> \"example.com\"\n        extract_domain(\"https://news.bbc.co.uk/article\") -> \"bbc.co.uk\"\n        extract_domain(\"ftp://user:pass@files.example.org:21/\") -> \"example.org\"\n    \"\"\"\n    # Prepend a dummy scheme so urlparse handles bare hostnames correctly\n    if \"://\" not in url:\n        url = \"http://\" + url\n\n    parsed = urlparse(url)\n    hostname = (parsed.hostname or \"\").lower()\n\n    if not hostname:\n        return \"\"\n\n    # Return IP addresses unchanged\n    if re.match(r'^\\d{1,3}(\\.\\d{1,3}){3}$', hostname):\n        return hostname\n\n    # IPv6 addresses (urlparse strips the brackets)\n    if \":\" in hostname:\n        return hostname\n\n    if _HAS_TLDEXTRACT:\n        extracted = _tldextract.extract(hostname)\n        if extracted.domain and extracted.suffix:\n            return f\"{extracted.domain}.{extracted.suffix}\"\n        if extracted.domain:\n            return extracted.domain\n        return hostname\n\n    return _fallback_extract(hostname)\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "08-extract-domain|sysproof|1",
+  "task": "08-extract-domain",
+  "arm": "sysproof",
+  "rep": 1,
+  "solution_code": "from urllib.parse import urlparse\n\ntry:\n    import tldextract as _tldextract\n    _USE_TLDEXTRACT = True\nexcept ImportError:\n    _USE_TLDEXTRACT = False\n\n\ndef extract_domain(url: str) -> str:\n    \"\"\"Return the registrable (base) domain from a URL.\n\n    Strips scheme, userinfo, port, path, query, and subdomains, and returns\n    the result lowercased. Uses the Public Suffix List via tldextract when\n    available; otherwise falls back to the last two hostname labels.\n    \"\"\"\n    if \"://\" not in url:\n        url = \"http://\" + url\n\n    if _USE_TLDEXTRACT:\n        extracted = _tldextract.extract(url)\n        domain = extracted.domain\n        suffix = extracted.suffix\n        if domain and suffix:\n            return f\"{domain}.{suffix}\".lower()\n        if domain:\n            return domain.lower()\n        # Bare IP or localhost-like: fall through to hostname\n        parsed = urlparse(url)\n        return (parsed.hostname or \"\").lower()\n\n    # Fallback: strip subdomains by keeping the last two labels\n    parsed = urlparse(url)\n    hostname = (parsed.hostname or \"\").lstrip(\".\")\n    parts = hostname.split(\".\")\n    if len(parts) >= 2:\n        return \".\".join(parts[-2:])\n    return hostname\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "08-extract-domain|sysproof|2",
+  "task": "08-extract-domain",
+  "arm": "sysproof",
+  "rep": 2,
+  "solution_code": "import tldextract\n\n\ndef extract_domain(url: str) -> str:\n    \"\"\"Return the registrable (base) domain from a URL, lowercased.\n\n    Strips scheme, userinfo, port, path, query, and any subdomains.\n    Uses tldextract for correct public-suffix handling (e.g. bbc.co.uk).\n    \"\"\"\n    extracted = tldextract.extract(url)\n    if extracted.domain and extracted.suffix:\n        return f\"{extracted.domain}.{extracted.suffix}\".lower()\n    # Fallback for bare hostnames with no recognised suffix\n    if extracted.domain:\n        return extracted.domain.lower()\n    if extracted.suffix:\n        return extracted.suffix.lower()\n    return \"\"\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "09-merge-translations|control|0",
+  "task": "09-merge-translations",
+  "arm": "control",
+  "rep": 0,
+  "solution_code": "def merge_translations(base, overrides):\n    result = dict(base)\n    result.update(overrides)\n    return result\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "09-merge-translations|control|1",
+  "task": "09-merge-translations",
+  "arm": "control",
+  "rep": 1,
+  "solution_code": "def merge_translations(base, overrides):\n    result = dict(base)\n    result.update(overrides)\n    return result\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "09-merge-translations|control|2",
+  "task": "09-merge-translations",
+  "arm": "control",
+  "rep": 2,
+  "solution_code": "def merge_translations(base, overrides):\n    result = dict(base)\n    result.update(overrides)\n    return result\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "09-merge-translations|placebo|0",
+  "task": "09-merge-translations",
+  "arm": "placebo",
+  "rep": 0,
+  "solution_code": "def merge_translations(base, overrides):\n    result = dict(base)\n    result.update(overrides)\n    return result\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "09-merge-translations|placebo|1",
+  "task": "09-merge-translations",
+  "arm": "placebo",
+  "rep": 1,
+  "solution_code": "def merge_translations(base, overrides):\n    result = dict(base)\n    result.update(overrides)\n    return result\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "09-merge-translations|placebo|2",
+  "task": "09-merge-translations",
+  "arm": "placebo",
+  "rep": 2,
+  "solution_code": "def merge_translations(base, overrides):\n    result = dict(base)\n    result.update(overrides)\n    return result\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "09-merge-translations|sysproof|0",
+  "task": "09-merge-translations",
+  "arm": "sysproof",
+  "rep": 0,
+  "solution_code": "def merge_translations(base, overrides):\n    result = dict(base)\n    result.update(overrides)\n    return result\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "09-merge-translations|sysproof|1",
+  "task": "09-merge-translations",
+  "arm": "sysproof",
+  "rep": 1,
+  "solution_code": "def merge_translations(base, overrides):\n    result = dict(base)\n    result.update(overrides)\n    return result\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "09-merge-translations|sysproof|2",
+  "task": "09-merge-translations",
+  "arm": "sysproof",
+  "rep": 2,
+  "solution_code": "def merge_translations(base, overrides):\n    result = dict(base)\n    result.update(overrides)\n    return result\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "10-validate-feed-item|control|0",
+  "task": "10-validate-feed-item",
+  "arm": "control",
+  "rep": 0,
+  "solution_code": "def is_valid_feed_item(item):\n    if not isinstance(item, dict):\n        return False\n    title = item.get(\"title\")\n    url = item.get(\"url\")\n    ts = item.get(\"ts\")\n    # title must be a non-empty string\n    if not isinstance(title, str) or not title.strip():\n        return False\n    # url must be a non-empty string\n    if not isinstance(url, str) or not url.strip():\n        return False\n    # ts must be present and truthy (non-zero number or non-empty string)\n    if ts is None or ts == \"\" or ts == 0:\n        return False\n    return True\n",
+  "verdict": "DONE"
+ },
+ {
+  "id": "10-validate-feed-item|control|1",
+  "task": "10-validate-feed-item",
+  "arm": "control",
+  "rep": 1,
+  "solution_code": "",
+  "verdict": "NO_VERDICT"
+ },
+ {
+  "id": "10-validate-feed-item|control|2",
+  "task": "10-validate-feed-item",
+  "arm": "control",
+  "rep": 2,
+  "solution_code": "",
+  "verdict": "NO_VERDICT"
+ },
+ {
+  "id": "10-validate-feed-item|placebo|0",
+  "task": "10-validate-feed-item",
+  "arm": "placebo",
+  "rep": 0,
+  "solution_code": "",
+  "verdict": "NO_VERDICT"
+ },
+ {
+  "id": "10-validate-feed-item|placebo|1",
+  "task": "10-validate-feed-item",
+  "arm": "placebo",
+  "rep": 1,
+  "solution_code": "",
+  "verdict": "NO_VERDICT"
+ },
+ {
+  "id": "10-validate-feed-item|placebo|2",
+  "task": "10-validate-feed-item",
+  "arm": "placebo",
+  "rep": 2,
+  "solution_code": "",
+  "verdict": "NO_VERDICT"
+ },
+ {
+  "id": "10-validate-feed-item|sysproof|0",
+  "task": "10-validate-feed-item",
+  "arm": "sysproof",
+  "rep": 0,
+  "solution_code": "",
+  "verdict": "NO_VERDICT"
+ },
+ {
+  "id": "10-validate-feed-item|sysproof|1",
+  "task": "10-validate-feed-item",
+  "arm": "sysproof",
+  "rep": 1,
+  "solution_code": "",
+  "verdict": "NO_VERDICT"
+ },
+ {
+  "id": "10-validate-feed-item|sysproof|2",
+  "task": "10-validate-feed-item",
+  "arm": "sysproof",
+  "rep": 2,
+  "solution_code": "",
+  "verdict": "NO_VERDICT"
+ }
+]

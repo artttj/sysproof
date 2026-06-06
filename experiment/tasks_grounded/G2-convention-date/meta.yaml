@@ -1,0 +1,3 @@
+id: "G2-convention-date"
+trap_family: convention
+latent: "newsroom.dates.to_iso_z renders 'Z' suffix, second precision"

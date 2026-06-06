@@ -1,0 +1,144 @@
+SYSPROOF A/B — MASTER FALSE-DONE SUMMARY
+=========================================
+Metric: false-done rate = claimed DONE but hidden test suite fails.
+Arms: control (bare task) | placebo ("be careful, verify") | sysproof (full skill).
+Each fair cell: model has a real shell, told to iterate/test, return DONE only when confident.
+The ONLY between-arm difference is the prompt body. 30 reps/arm where noted.
+
+CONDITION                                   control   placebo  sysproof   verdict
+1. pre-announced, no exec (Opus)              0/30      0/30      0/30     floor (no headroom)
+2. natural + exec (Haiku)                     9/30     11/30     16/30     sysproof WORSE
+3. natural + real-iterate (Sonnet)            8/30      6/30      8/30     exact null
+4. steelman + visible tests (Sonnet)          3/30 *    3/30 *    3/30 *   null; test-presence is the lever
+5. kimi-k2.6 cloud (ollama, reason-only)      9/30     12/30     13/30     sysproof worse (suppresses hedging)
+6. context-load 80k distractor (Sonnet)       6/30      6/30      7/30     null; pressure changes nothing
+
+* run 4 used visible acceptance tests; false-done fell ~27%->10% IDENTICALLY across
+  all three arms when the test was placed in the workspace. The lever was test-PRESENCE,
+  not the skill.
+
+FRONT-GROUNDING REDESIGN (different metric: task-correct rate, host repo present)
+CONDITION                                   control   placebo  sysproof   verdict
+7. repo-grounded, signposted prompts (Sonnet) 40/40    40/40    40/40     null by CEILING
+   (reuse rate)                               100%      100%      98%      (all arms grounded)
+8. repo-grounded, NEUTRAL prompts (Sonnet)    18/40    17/40    24/40     sysproof BEST (directional)
+   (correct rate)                              45%       42%       60%      +15pp vs control, p_holm=0.36 (NS)
+   (reuse rate)                                28%       15%       42%
+
+* run 7 tests the REDESIGNED skill (grounding before exec), not the old gate. It hit a
+  ceiling: the prompts said "match how the codebase already does it" with the host repo
+  present, so even bare control researched and reused 40/40. Mirror of the gate finding -
+  when the environment already forces the right behavior, the skill is redundant.
+
+* run 8 removed the signposting: prompts state ONLY the behavior; the requirement is
+  latent in the code. FIRST condition where sysproof leads (60% vs 45% correct). But the
+  lead is driven entirely by the two LATENT-ONLY tasks where control is at floor:
+  G3 contract-error 0/0/3, G4 constraint-dedupe 0/0/1 (control/placebo/sysproof). G2 is a
+  ceiling, G1 half-guessable. Directional, NOT significant at n=40/arm (p_holm=0.36).
+  Power lives in G3/G4; a scaled rerun would confirm or refute.
+
+9. G3 scaled to ~40 reps/arm (Sonnet)         0/39     0/40     0/40     NO EFFECT at power
+   (correct rate)                               0%        0%        0%      run-8 3/10 was noise
+10. G4 scaled to ~40 reps/arm (Sonnet)         0/40      --       0/40     NO EFFECT at power
+   (correct rate)                               0%       --        0%       run-8 1/10 was noise
+
+* run 10 scaled the hardest latent trap (G4, dedupe-before-validate - impossible to pass
+  without reading feed.py). control 0/40, sysproof 0/40, 0% reuse both, Fisher p=1.0.
+  Placebo omitted (mirrored control in all 9 prior conditions). Both latent-only
+  discriminators (G3, G4) are ZERO for the PRINCIPLE-style skill at power.
+
+CONVENTION ARM (4th arm): procedure-style skill - executable step + HARD STOP, vs
+sysproof's principle "ground before you build". Same forced injection, same tasks/model.
+CONDITION                                   control  sysproof  CONVENTION   Fisher vs control
+11. G3 contract-error (~40 reps)              0/40     0/40     40/40 (100%) p=1.9e-23
+12. G4 constraint-dedupe (~40 reps)           0/40     0/40      7/40 (18%)  p=1.2e-2
+    pooled G3+G4                              0/80     0/80     47/80        p=7.8e-19
+    convention REUSE of host package          0%       0%       100%
+
+* runs 11-12 change ONE variable: principle text -> an executable procedure ("locate the
+  package, read its modules, QUOTE the convention") plus a HARD STOP ("do not write code
+  until you have quoted one real convention; if the repo provides it, import it"). Reuse
+  went 0% -> 100% on BOTH tasks. G3 went 0 -> 40/40. The hard gate manufactured the
+  uncertainty the model never felt on its own.
+  G4 nuance: 100% reuse but only 18% correct - the gate solved DISCOVERY (everyone found
+  and imported newsroom.feed) but not COMPREHENSION (applying the dedupe-before-validate
+  ordering invariant). Two distinct failure modes: "didn't look" (gate fixes) vs "looked
+  but misapplied" (gate does not).
+
+* run 9 scaled the cleanest latent-only discriminator (G3) to ~40 reps to settle run 8's
+  directional signal. It VANISHED: sysproof 0/40, identical to control 0/39 (Fisher p=1.0).
+  Confirmed no confound - the skill prefix was present and the repo importable, yet 0/40
+  sysproof solutions even mention newsroom/FeedError. P(0/40 | true rate 30%) = 6e-7, so
+  run 8's 3/10 was small-sample noise. A generic "ground before you build" instruction does
+  NOT reliably trigger codebase research on a task the model believes it already knows.
+
+OVERALL (revised after powering up): NEITHER half of sysproof produces a measurable benefit
+on a competent model. The end-gate (conditions 1-6) was inert. The front-grounding redesign
+LOOKED promising at n=10 (condition 8) but the signal did not survive proper power
+(condition 9): G3 went 3/10 -> 0/40, exactly 0, no different from control. The honest verdict
+for the whole study is a NULL: a prompt-level skill that tells a capable model to be diligent
+or to ground does not change what it does. The only lever that ever moved the metric was
+putting the actual artifact (test, or here the needed code) in front of the model - and even
+then the model has to choose to use it.
+
+FINAL (study closed, 12 conditions, ~930 graded cells, 3 model tiers):
+
+It is NOT "skills are useless." It is "the SHAPE of the skill decides everything."
+
+1. PRINCIPLE-style skills (verify before done; ground before you build) are INERT on a
+   competent model (conditions 1-10). A directional win at n=10 (condition 8) VANISHED at
+   power (9-10: 0/40). A prompt that tells a capable model to be diligent does not change
+   what it does - its prior that it already knows the answer wins.
+
+2. PROCEDURE-style skills with an EXECUTABLE step and a HARD STOP DO change behavior, hugely
+   (conditions 11-12). Swapping the principle text for "run this, read it, QUOTE a real
+   convention, and do NOT write code until you have" took host-package reuse from 0% to
+   100% and G3 correctness from 0/40 to 40/40 (p=1.9e-23). One variable, decisive effect.
+
+3. The gate fixes DISCOVERY, not COMPREHENSION. G4 reuse hit 100% but correctness only 18%:
+   forcing "go read the code" is solvable by a hard stop; "correctly apply the ordering
+   invariant you read" is a separate problem the gate does not solve.
+
+Honest headline: "I built a skill that told the agent to be careful. Tested 12 ways, it did
+nothing. Then I rewrote it as an executable procedure with a hard stop - and it went from 0%
+to 100%. The lesson: skills must specify ACTIONS with blocking gates, not VALUES. Telling a
+model to 'ground its work' is noise; telling it 'do not write code until you have quoted a
+real convention from the repo' is a behavior change you can measure at p<1e-18."
+
+Consistent with the literature: intrinsic 'be careful' self-correction doesn't help (Huang
+et al. ICLR 2024); gains come from informative external signal and scaffolding/tools
+(SWE-agent NeurIPS 2024, CRITIC) - here, an executable procedure that forces the model to
+fetch that signal.
+
+SIGNIFICANCE: in every fair condition, Fisher+Holm sysproof-vs-control p_holm >> 0.05,
+and the cluster bootstrap CI for the difference always crosses zero. No condition shows
+a significant reduction. Direction is null-to-slightly-worse for sysproof.
+
+WHY IT NEVER WINS:
+  - Competent model + ability to run code already catches discoverable bugs;
+    the "evidence gate" adds nothing it wasn't already doing.
+  - On a weaker model (Haiku, kimi), the verbose skill forces confident DONE
+    declarations, suppressing honest NOT_DONE hedging -> MORE false-done.
+  - Residual failures are spec-ambiguity traps (deep-merge semantics, public-suffix
+    domains, missing-timestamp ordering). The requirement was never stated, so no
+    amount of verify-against-the-spec discipline can catch them.
+
+HONEST CONCLUSION FOR THE ARTICLE:
+  A "verify before you say done" skill produced no measurable reduction in false
+  completions across 6 conditions and 3 model tiers (~510 graded cells). The half
+  that helps (writing an explicit intent contract up front) is subsumed by simply
+  having tests present. The half that's pure ritual (an evidence gate at the end)
+  is inert on strong models and harmful on weak ones. The real, measured lever for
+  false-done is putting the acceptance test in the workspace, not prompting the
+  model to be diligent.
+
+G3 ABLATION (~40 reps, what is the active ingredient?) — baselines control 0/40,
+sysproof(buried principle) 0/40, convention(exec+stop) 40/40:
+  verbose_principle (focused principle, no action)   20/40 (50%)   reuse 50%
+  exec_only         (how-to step, NO hard stop)      40/40 (100%)  reuse 100%
+  stop_only         (hard stop, NO how-to step)      40/40 (100%)  reuse 100%
+Refined lesson: EITHER a concrete how-to OR a blocking gate independently takes
+discovery to 100% - you do not need both. A FOCUSED principle gets halfway (50%),
+far above the same principle BURIED in the long sysproof skill (0%) - so dilution,
+not just "principle-ness", was part of sysproof's failure. Ranking:
+buried principle 0% < focused principle 50% < any concrete action (how-to or gate) 100%.

@@ -1,0 +1,75 @@
+NEUTRAL-PROMPT REPO-GROUNDED A/B (Sonnet, host repo AVAILABLE but NOT signposted)
+10 reps/arm/task = 120 cells. Graded: results_grounded_neutral.csv
+
+The fix vs the ceiling run (condition 7): prompts state ONLY the behavior (no "match
+the codebase"), and the workflow's env line was neutralized to availability-only
+(`newsroom` is importable) so the instruction to research/reuse comes ONLY from the
+skill. The "do not read other files" guard was narrowed to "other prompt files" so
+grounding agents may actually read the host repo.
+
+Per-arm (correct / traps-caught / reused-the-host-helper):
+  control   18/40 (45%)   18/40 (45%)   11/40 (28%)
+  placebo   17/40 (42%)   17/40 (42%)    6/40 (15%)
+  sysproof  24/40 (60%)   24/40 (60%)   17/40 (42%)   <- best on all three
+
+Per-task correct (control/placebo/sysproof) [reused in brackets]:
+  G1-reuse-slug         8/10[5]  7/10[3]  10/10[6]   partial: guessing can pass
+  G2-convention-date   10/10[6] 10/10[3]  10/10[6]   CEILING: Sonnet emits 'Z' unprompted
+  G3-contract-error     0/10[0]  0/10[0]   3/10[3]   LATENT-ONLY: pass requires reading the repo
+  G4-constraint-dedupe  0/10[0]  0/10[0]   1/10[2]   LATENT-ONLY: hardest, dedupe-before-validate
+
+Effect: sysproof +15pp absolute correctness over control (60% vs 45%), +33% relative.
+Reuse: sysproof 42% vs control 28% vs placebo 15%.
+
+SIGNIFICANCE: Fisher+Holm sysproof-vs-control p_holm = 0.359; vs placebo p_holm = 0.359.
+NOT significant at n=40/arm. The effect is directional and underpowered.
+
+THE REAL FINDING (first time sysproof leads in the whole study):
+  Grounding pays ONLY where the requirement is genuinely latent - unknowable without
+  reading the code. G3 (FeedError not ValueError) and G4 (dedupe before validate) are
+  the discriminators: control fails them 100% (0/10, 0/10) because it never looks;
+  sysproof recovers a few (3/10, 1/10) because the skill makes it read newsroom/.
+  G2 is a ceiling (model guesses the convention anyway) and G1 is half-guessable, so
+  the aggregate lead comes from the hard latent traps - exactly the failure class the
+  redesign targets.
+
+  This is the mirror-completion of the whole arc:
+   - end-gate (old sysproof): inert, because a competent model already verifies.
+   - front-grounding (new sysproof): helps ONLY when the answer is hidden in the code
+     and the model would otherwise guess. When the answer is stated, signposted, or
+     guessable, grounding is redundant.
+
+POWER: the signal lives in G3/G4 where control is at floor (0/10). With more reps,
+even the observed modest sysproof recovery (3/10, 1/10) would likely reach
+significance. A scaled rerun (e.g. 30-40 reps on G3/G4, or all four tasks) is the
+clean way to confirm or refute. As it stands: promising direction, not yet proven.
+
+=========================================================================
+SCALED RERUN (G3 to ~40 reps/arm) — THE SIGNAL DID NOT SURVIVE POWER
+=========================================================================
+G3 contract-error at ~40 reps (control 39, placebo 40, sysproof 40):
+  control   0/39 (0%)   reused 0%
+  placebo   0/40 (0%)   reused 0%
+  sysproof  0/40 (0%)   reused 0%   <- collapsed from 3/10 in run 8
+Fisher+Holm sysproof vs control/placebo: p = 1.00 (no effect).
+
+Verification (ruled out confound): the 40 sysproof prompts DID carry the full
+skill ("GROUND BEFORE YOU BUILD" present); the newsroom repo WAS importable at
+the host path. Yet 0/40 sysproof solutions mention `newsroom` or `FeedError` —
+every one guessed ValueError/KeyError. The environment was correct; the skill
+did not make the model read the repo.
+
+Statistics: P(0 of 40 | true rate 30%) = 6.4e-7. The run-8 result of 3/10 was
+small-sample noise. True G3 reuse/correctness rate under grounding is <~5%,
+indistinguishable from control's structural 0%.
+
+REVISED CONCLUSION: run 8's aggregate lead (sysproof 24/40 vs control 18/40)
+was driven by underpowered per-task noise. G3 — the cleanest latent-only
+discriminator — shows ZERO effect at power. A generic "ground before you build"
+instruction does NOT reliably trigger codebase research on a task the model
+thinks it already knows (raising an error). The model's prior overrides the skill.
+
+The redesign, like the original end-gate, appears INERT under proper power. The
+honest verdict for the whole study: neither half of sysproof (end-gate OR
+front-grounding) produces a measurable benefit on a competent model. Pending G4
+at power as final confirmation, but G3's collapse predicts the same.

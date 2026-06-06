@@ -1,0 +1,3 @@
+id: "H1-error-code"
+trap_family: contract
+latent: "newsroom.feed.validate_item raises FeedError with codes 'missing_title' and 'missing_url'"

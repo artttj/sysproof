@@ -1,0 +1,11 @@
+THREE-PILOT FALSE-DONE SUMMARY (events/n)
+pilot                               control    placebo   sysproof
+1. pre-announced, no exec (Opus)       0/30       0/30       0/30
+2. natural+exec (Haiku)                9/30      11/30      16/30
+3. natural+real-iterate (Sonnet)       8/30       6/30       8/30
+
+Conclusion: no pilot shows sysproof reducing false-done vs control.
+ P1 floor (no headroom). P2 sysproof worse (verbose skill drowns weak model).
+ P3 fair test = exact null; residual failures are spec-ambiguity traps
+ (deep-merge, public-suffix, tie/missing-ordering) that are unknowable by
+ testing, so a verify-with-evidence discipline cannot catch them.

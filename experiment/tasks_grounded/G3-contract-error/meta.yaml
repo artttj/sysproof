@@ -1,0 +1,3 @@
+id: "G3-contract-error"
+trap_family: contract
+latent: "newsroom.errors.FeedError is the real exception type with a code attr"

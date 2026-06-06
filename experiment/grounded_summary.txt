@@ -1,0 +1,40 @@
+REPO-GROUNDED A/B (Sonnet, host repo present, 10 reps/arm/task = 120 cells)
+Graded: results_grounded.csv
+
+Per-arm (task-correct / traps-caught / reused-the-host-helper):
+  control   40/40 (100%)   40/40 (100%)   40/40 (100%)
+  placebo   40/40 (100%)   40/40 (100%)   40/40 (100%)
+  sysproof  40/40 (100%)   40/40 (100%)   39/40 ( 98%)
+
+Per-task correctness (control/placebo/sysproof), all 10/10/10:
+  G1-reuse-slug, G2-convention-date, G3-contract-error, G4-constraint-dedupe.
+
+Significance: with 100/100/100 there is no difference to test. Fisher/bootstrap
+are trivially null. ARR/RRR = 0.
+
+VERDICT: null by CEILING EFFECT, not by headroom. The result is honest but the
+test did not get to discriminate, because every arm already did the right thing.
+
+WHY THE CEILING:
+  The task prompts signposted the latent helper - e.g. G1 says "match how the rest
+  of this codebase already slugifies text", G2 "the exact format this codebase uses
+  everywhere else", G4 "match how this codebase processes a batch end to end". With
+  the host repo sitting right there AND the prompt telling the model to match it,
+  even bare control agents researched and reused (40/40). The skill's grounding
+  instruction had nothing to add: the environment already forced grounding.
+
+  This is the MIRROR of the construction-suite finding. There: a competent model that
+  could run code already verified, so the end-gate was inert. Here: a competent model
+  that was TOLD to match the codebase, with the codebase present, already grounded, so
+  the grounding instruction was inert. In both, when the signal to do the right thing
+  is in the environment, the skill is redundant.
+
+WHAT A FAIR TEST NEEDS (neutral-prompt variant):
+  Remove the "match the codebase" cue. Prompts should state ONLY the behavior wanted
+  ("implement article_slug(title) returning a URL slug") with NO instruction to match
+  or reuse anything. Then the helper is genuinely LATENT - discoverable only by
+  research, not signposted. Measure whether the grounding arm's reuse/correctness
+  exceeds control's. That is the condition where grounding could actually pay off.
+
+STATUS: B7 complete as planned. Ceiling caveat recorded. Neutral-prompt rerun is the
+recommended next experiment to give the redesign a fair shot at beating control.

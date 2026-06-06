@@ -1,0 +1,19 @@
+{
+  "name": "quote-before-code",
+  "version": "1.0.0",
+  "description": "Forces a coding agent to find and quote a real convention from the repo before it writes code. In a controlled study (~930 graded runs) this took code reuse from 0% to 100% where a generic 'ground your work' principle did nothing.",
+  "author": {
+    "name": "Artem Iagovdik",
+    "email": "artyom.yagovdik@gmail.com",
+    "url": "https://github.com/artttj"
+  },
+  "homepage": "https://github.com/artttj/quote-before-code",
+  "license": "MIT",
+  "keywords": [
+    "reuse",
+    "conventions",
+    "codebase-grounding",
+    "verification",
+    "skill"
+  ]
+}

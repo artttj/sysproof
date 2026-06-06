@@ -1,0 +1,28 @@
+CONTEXT-LOAD RUN (Sonnet, 80k-token inline distractor per cell, 30 reps/arm = 90 cells)
+Graded: results_ctxload.csv
+
+NOTE: ran in two parts. First pass solved 82 cells, then hit the Berlin session
+limit on the last 8 task-10 cells. After re-login, task-10 was re-run (9 cells,
+clean) and merged. Full 90 below.
+
+false-done rate by arm (Wilson 95% CI):
+  control   6/30 = 20%  [10%, 37%]   claimedDONE=30  pass=24
+  placebo   6/30 = 20%  [10%, 37%]   claimedDONE=30  pass=24
+  sysproof  7/30 = 23%  [12%, 41%]   claimedDONE=30  pass=23
+
+Significance (sysproof vs each, Fisher exact + Holm):
+  vs control   p_holm=1.000   -> not significant
+  vs placebo   p_holm=1.000   -> not significant
+
+Cluster bootstrap control->sysproof: -3.3pp  CI95 [-23.3, +16.7]  (crosses 0)
+
+OBSERVATIONS:
+  - 80k is the working distractor ceiling; 120k overflowed ("Prompt is too long").
+    At 80k each cell burned ~100-130k tokens, confirming the load actually landed.
+  - Heavy context did NOT degrade Sonnet's correctness: pass counts (23-24/30) are
+    as high as the unloaded fair run. So the skill again had no failures to recover.
+  - Every arm claimed DONE on all 30 cells. sysproof is numerically the worst arm
+    by a single cell, exactly as in every other fair condition.
+
+CONSISTENT WITH all prior runs: sysproof == control. Context pressure changes
+nothing.
