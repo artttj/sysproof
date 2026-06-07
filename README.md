@@ -1,5 +1,7 @@
 # quote-before-code
 
+[![version](https://img.shields.io/badge/version-v1.0.1-blue)](https://github.com/artttj/quote-before-code/releases) [![runs](https://img.shields.io/badge/runs-930-orange)](https://github.com/artttj/quote-before-code/blob/main/experiment/MASTER_SUMMARY.txt) [![p--value](https://img.shields.io/badge/p-1.9%C3%9710%E2%81%BB%C2%B3-green)](https://github.com/artttj/quote-before-code/blob/main/experiment/article_FINAL.md) [![license](https://img.shields.io/badge/license-MIT-gray)](https://github.com/artttj/quote-before-code/blob/main/LICENSE)
+
 A Claude Code skill that forces a coding agent to find and quote a real convention from your repo before it writes any code. One rule runs it:
 
 > **Do not write code until you have quoted one real convention from the repo.**
